@@ -12,7 +12,7 @@ function FirstProject() {
                     tools
                     shit
                 </div>
-                <video className="vid" autoPlay muted loop controls>
+                <video loading="lazy" className="vid" autoPlay muted loop controls>
                     <source autoPlay type="video/mp4" src="\img\GamesShortVideos\PacRunnerShortVideo.mp4" />
                 </video>
 
@@ -30,7 +30,7 @@ function FirstProject() {
                     <div id="achivement-details2" className="achivement-details">
 
                         <div className="image-project-container">
-                            <img src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac13.png" alt="" />
+                            <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac13.png" alt="" />
                         </div>
 
                         {/* <div className="para-project-container">
@@ -84,7 +84,7 @@ function FirstProject() {
                         </div>
 
                         <div className="image-project-container">
-                            <img src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac5.png" alt="" />
+                            <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac5.png" alt="" />
                         </div>
 
 
@@ -96,7 +96,7 @@ function FirstProject() {
                     <div id="achivement-details2" className="achivement-details">
 
                         <div className="image-project-container">
-                            <img src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac11.png" alt="" />
+                            <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac11.png" alt="" />
                         </div>
 
 

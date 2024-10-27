@@ -8,7 +8,7 @@ function ThirdProject() {
         <div className="firstProject-contianer">
             <NavBar />
             <div className="projects-container">
-                <video className="vid" autoPlay muted loop controls >
+                <video loading="lazy" className="vid" autoPlay muted loop controls >
                     <source autoPlay type="video/mp4" src="\img\GamesShortVideos\IslandOfTheLastSurvivorShortVideo.mp4" />
                 </video>
 
@@ -23,7 +23,7 @@ function ThirdProject() {
                 </div>
                 <div className="achivement-container">
                     <div className="achivement-details">
-                        <img src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last2.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last2.png" alt="" />
                         <div className="para-project-container">
                             <h2 className="last-surviver-header">Gameplay Systems:</h2>
                             <p>
@@ -48,7 +48,7 @@ function ThirdProject() {
                 <div className="achivement-container">
                     <div className="achivement-details">
 
-                        <img src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last10.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last10.png" alt="" />
                         <p>
                             <b style={{ color: "#fff" }}>Inventory System:</b> Manages resources, and items.
                         </p>
@@ -64,14 +64,14 @@ function ThirdProject() {
                             <p><b style={{ color: "#fff" }}> Starting Weapon: </b> A machete is available at the beginning. </p>
                             <p><b style={{ color: "#fff" }}>Upgraded Weapon: </b>A better sword can be found later in the game.</p>
                         </div>
-                        <img src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last19.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last19.png" alt="" />
                     </div>
                 </div>
 
                 <div className="achivement-container">
                     <div className="achivement-details">
 
-                        <img src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last11.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last11.png" alt="" />
                         <p>
                             <b style={{ color: "#fff" }}>Monster Spawning System:</b>  Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
                         </p>
