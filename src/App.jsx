@@ -13,17 +13,8 @@ import 'aos/dist/aos.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import motion from "framer-motion";
 function App() {
 
-  // let cursor = document.querySelector("#cursor")
-  // let body = document.querySelector(".body")
-  // document.addEventListener("mousemove", (e) => {
-  //     body.style.backgroundPositionX = e.pageX / -4 + "px";
-  //     body.style.backgroundPositionY = e.pageY / -4 + "px";
-  //     cursor.style.top = e.pageY + "px";
-  //     cursor.style.left = e.pageX + "px";
-  // })
 
 var timeout;
   window.addEventListener("mousemove", (e) => {
@@ -48,13 +39,7 @@ var timeout;
 
     <div id="cursor"></div>
       <div className="appcontainer">
-
-        {/* <div className="navAndWelcomeSection"> */}
-      
-          <WelcomeToMyWorld />
-        {/* </div> */}
-        {/* <div className="onlyAbout" > */}
-        {/* </div> */}
+        <WelcomeToMyWorld />
         <AboutMe />
         <Portfolio />
         <Resume />
@@ -63,24 +48,6 @@ var timeout;
       </div>
 
 
-      {/* <div className="container2">
-        <div className="item3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tenetur atque accusamus non iusto voluptatum, quisquam aliquid, voluptatibus praesentium dolor dolore obcaecati commodi vero nobis explicabo reprehenderit aspernatur, voluptate consectetur?
-        </div>
-        <div className="item3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tenetur atque accusamus non iusto voluptatum, quisquam aliquid, voluptatibus praesentium dolor dolore obcaecati commodi vero nobis explicabo reprehenderit aspernatur, voluptate consectetur?
-        </div>
-        <div className="item3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tenetur atque accusamus non iusto voluptatum, quisquam aliquid, voluptatibus praesentium dolor dolore obcaecati commodi vero nobis explicabo reprehenderit aspernatur, voluptate consectetur?
-        </div>
-        <div className="item3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tenetur atque accusamus non iusto voluptatum, quisquam aliquid, voluptatibus praesentium dolor dolore obcaecati commodi vero nobis explicabo reprehenderit aspernatur, voluptate consectetur?
-        </div>
-        <div className="item3">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tenetur atque accusamus non iusto voluptatum, quisquam aliquid, voluptatibus praesentium dolor dolore obcaecati commodi vero nobis explicabo reprehenderit aspernatur, voluptate consectetur?
-        </div>
-
-      </div> */}
     </div>
   );
 }

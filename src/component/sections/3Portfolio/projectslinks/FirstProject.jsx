@@ -33,20 +33,7 @@ function FirstProject() {
                             <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac13.png" alt="" />
                         </div>
 
-                        {/* <div className="para-project-container">
-                            <p>
-                                <b style={{ color: "gray" }}>Unique First-Person Perspective : </b> Unlike traditional Pac-Man games, your version offers a first-person view,
-                            </p>
-
-                            <p>which immerses players directly into the maze. This provides a fresh, engaging experience where players feel as though they are navigating the maze themselves.</p>
-                        </div> */}
-
-
-
                         <div className="para-project-container">
-                            {/* <h2 className="achivement-header">
-                                Strategic Use of Abilities
-                            </h2> */}
                             <p>
                                 <b style={{ color: "gray" }}>Unique First-Person Perspective : </b> Unlike traditional Pac-Man games,
                             </p>
