@@ -12,9 +12,19 @@ function FirstProject() {
                     tools
                     shit
                 </div>
-                <video loading="lazy" className="vid" autoPlay muted loop controls>
-                    <source autoPlay type="video/mp4" src="\img\GamesShortVideos\PacRunnerShortVideo.mp4" />
-                </video>
+
+                <iframe loading="lazy" className="vid" width="1280" height="720"
+                    src="https://www.youtube-nocookie.com/embed/dQQwUtSKIsI?&autoplay=1&loop=1&mute=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&loop=1&playlist=dQQwUtSKIsI"
+                    title="Pac-Runner: First-Person Maze Escape"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen>
+
+                </iframe>
+
+
+
 
                 <div className="project-details">
                     <h1 className="project-details-header">Title: Pac-Runner: First-Person Maze Escape</h1>
@@ -30,7 +40,7 @@ function FirstProject() {
                     <div id="achivement-details2" className="achivement-details">
 
                         <div className="image-project-container">
-                            <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac13.png" alt="" />
+                            <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman2.jpg" alt="" />
                         </div>
 
                         <div className="para-project-container">
@@ -71,7 +81,7 @@ function FirstProject() {
                         </div>
 
                         <div className="image-project-container">
-                            <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac5.png" alt="" />
+                            <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman3.jpg" alt="" />
                         </div>
 
 
@@ -83,7 +93,7 @@ function FirstProject() {
                     <div id="achivement-details2" className="achivement-details">
 
                         <div className="image-project-container">
-                            <img loading="lazy" src="img\yasser-portfolio-images\Pac-Runner-Screenshots\pac11.png" alt="" />
+                            <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman1.jpg" alt="" />
                         </div>
 
 

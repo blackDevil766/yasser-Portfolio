@@ -7,9 +7,17 @@ function SecProject() {
         <div className="firstProject-contianer">
             <NavBar />
             <div className="projects-container">
-                <video loading="lazy" className="vid" autoPlay muted loop controls >
-                    <source autoPlay type="video/mp4" src="\img\GamesShortVideos\RevengesShortVideo.mp4" />
-                </video>
+
+
+            <iframe loading="lazy" className="vid" width="1280" height="720"
+                    src="https://www.youtube-nocookie.com/embed/DDoWVFYxKbA?&autoplay=1&loop=1&mute=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&loop=1&playlist=DDoWVFYxKbA"
+                    title="Revenge Boss fight game demo (Short video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen>
+
+                </iframe>
+
 
                 <div className="project-details">
                     <h1 className="project-details-header">revenge</h1>
@@ -25,7 +33,7 @@ function SecProject() {
                 </div>
                 <div className="achivement-container">
                     <div className="achivement-details">
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-Screenshots\rev1.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve4.jpg " alt="" />
                         <p>
                             Designed and implemented the weapon mechanics, including shooting and grappling.
                             Grappling weapon: Can grap rocks, charge, and throw them
@@ -44,13 +52,13 @@ function SecProject() {
 
                             <p> <b style={{ color: "#fff" }}> Ground Stage: </b> In this phase, the boss can dash toward the player and perform melee attacks. Additionally, he has a long-range attack where he hurls rocks at the player.</p>
                         </div>
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-Screenshots\rev3.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve1.jpg" alt="" />
                     </div>
                 </div>
 
                 <div className="achivement-container">
                     <div className="achivement-details">
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-Screenshots\rev5.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve2.jpg" alt="" />
                         <p>
                         <b style={{ color: "#fff" }}>Floating Stage:</b> While floating, the boss has two variations of rock throws. He can either pick up nearby rocks and throw them, or he can telekinetically lift rocks from the ground.
                             The player can anticipate this second attack because the rocks will vibrate on the ground before being launched.
@@ -68,7 +76,7 @@ function SecProject() {
                                 To overcome this,  <b style={{ color: "#fff" }} > the player must stick explosives to a rock and throw it at the boss to shatter the shield. </b>
                             </p>
                         </div>
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-Screenshots\rev7.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve3.jpg" alt="" />
                     </div>
                 </div>
 

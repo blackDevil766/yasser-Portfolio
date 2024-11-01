@@ -2,6 +2,7 @@
 body {
     overflow-x: hidden;
     margin: 0;
+    /* cursor: none; */
 }
 
 .App {
@@ -36,7 +37,8 @@ body {
 }
 
 .welcomeToMyWebSite{
-    margin-bottom: 50vw;
+    /* margin-bottom: 50vw; */
+    background-color: #141414 !important;
 }
 
 .App{
@@ -682,23 +684,34 @@ p {
 
 
 .carousel{
-    position: absolute !important;
+    /* position: absolute !important;
     top: 0px;
     float: none !important;
     width: 100%;
     display: flex;
     align-items: center;
+    overflow: hidden; */
+
+    position: absolute !important;
+    top: 0px;
+    /* float: none !important; */
+    width: 100%;
+    display: flex;
+    align-items: center;
     overflow: hidden;
+    /* height: 100vh; */
 }
 
 
 .welcome-carousel-img{
     background-size: cover !important;
+    width: 100%;
+    height: 100vh;
 }
 
 .d{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     object-fit: cover;
 }
 
@@ -793,7 +806,7 @@ p {
 #AboutMe {
     background-color: #141414;
     padding: 80px 0;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     z-index: -1;
     width: 100vw;
@@ -801,7 +814,7 @@ p {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 1000px;
 }
 
 .About-secondSection {
@@ -997,7 +1010,7 @@ hr {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -1008,14 +1021,15 @@ hr {
 }
 
 .portfolio-container2 {
-    max-width: 24vw;
+    /* max-width: 24vw; */
     background: #fffcee;
     margin: 60px 13px 0px 13px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.4s !important;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    border-radius: 35px;
 }
 
 
@@ -1028,12 +1042,12 @@ hr {
 .portfolio-container2:hover {
 
     background: #3c3c3c;
-    box-shadow: 5px 6px 2px 6px #3c3c3c, 10px 13px 3px 2px #3c3c3c;
+    /* box-shadow: 5px 6px 2px 6px #3c3c3c, 10px 13px 3px 2px #3c3c3c; */
     transition: all 0.4s !important;
     transform: translate(0px, -30px) !important;
 }
 
-.portfolio-container2::before{
+/* .portfolio-container2::before{
     content: "hello its yasser allam";
     width: 100%;
     height: 50px;
@@ -1047,7 +1061,7 @@ hr {
     z-index: -1;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-}
+} */
 
 .portfolio-container2:hover::before{
     content: "hello its yasser allam";
@@ -1656,6 +1670,8 @@ hr {
 .carousel-indicators {
     z-index: 1;
 }
+
+
 
 #active {
     background-color: #f8f8f8dd;
@@ -2455,12 +2471,24 @@ background-size: cover;
 .vid{
     object-fit: cover;
     width: 65%;
-    height: fit-content;    
+    /* height: fit-content;     */
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 30px;
+}
+
+
+.portfoliodisplay{
+    object-fit: cover;
+    width: 500px;
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
 }
 
 .last-surviver-header{
@@ -2992,6 +3020,15 @@ background-size: cover;
     /**********************
   * my resume SECTION *
 ***********************/
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
     .resumeHolder {
         display: block;
         border-radius: 10px;
@@ -3046,6 +3083,7 @@ background-size: cover;
         padding: 0;
         margin-bottom: 60px;
         width: auto;
+        flex-direction: column;
     }
 
     .left-details {

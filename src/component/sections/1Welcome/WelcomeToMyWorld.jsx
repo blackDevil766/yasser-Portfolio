@@ -14,16 +14,25 @@ function WelcomeToMyWorld() {
       <div className="welcomeToMyWorldSection-continer">
         <div id="carouselExampleControls" className="slide carousel" data-bs-ride="carousel">
           <div className="carousel-item active">
-            <img className="welcome-carousel-img" src="img/yasser-portfolio-images/shooting1.png" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Revenge-1.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="img/yasser-portfolio-images/home2.png" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Revenge-3.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="img/yasser-portfolio-images/night-3.png" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Island-of-1.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="img/yasser-portfolio-images/night4.png" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Island-of-3.jpg" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Island-of-2.jpg" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\pac-runner1.jpg" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\pac-runner2.jpg" alt="..." />
           </div>
         </div>
 

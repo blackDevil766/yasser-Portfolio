@@ -8,9 +8,15 @@ function ThirdProject() {
         <div className="firstProject-contianer">
             <NavBar />
             <div className="projects-container">
-                <video loading="lazy" className="vid" autoPlay muted loop controls >
-                    <source autoPlay type="video/mp4" src="\img\GamesShortVideos\IslandOfTheLastSurvivorShortVideo.mp4" />
-                </video>
+
+                <iframe loading="lazy" className="vid" width="1280" height="720"
+                    src="https://www.youtube-nocookie.com/embed/_YsQ8SRjU80?&autoplay=1&loop=1&mute=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&loop=1&playlist=_YsQ8SRjU80"
+                    title="Revenge Boss fight game demo (Short video)"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen>
+
+                </iframe>
 
                 <div className="project-details">
                     <h1 className="project-details-header">Island of the Last Survivor</h1>
@@ -23,7 +29,7 @@ function ThirdProject() {
                 </div>
                 <div className="achivement-container">
                     <div className="achivement-details">
-                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last2.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island5.jpg" alt="" />
                         <div className="para-project-container">
                             <h2 className="last-surviver-header">Gameplay Systems:</h2>
                             <p>
@@ -41,14 +47,14 @@ function ThirdProject() {
 
                             Monster Spawning System: Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
                         </p>
-                        <img src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last17.png" alt="" />
+                        <img src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island4.jpg" alt="" />
                     </div>
                 </div>
 
                 <div className="achivement-container">
                     <div className="achivement-details">
 
-                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last10.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island1.jpg" alt="" />
                         <p>
                             <b style={{ color: "#fff" }}>Inventory System:</b> Manages resources, and items.
                         </p>
@@ -64,14 +70,14 @@ function ThirdProject() {
                             <p><b style={{ color: "#fff" }}> Starting Weapon: </b> A machete is available at the beginning. </p>
                             <p><b style={{ color: "#fff" }}>Upgraded Weapon: </b>A better sword can be found later in the game.</p>
                         </div>
-                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last19.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island3.jpg" alt="" />
                     </div>
                 </div>
 
                 <div className="achivement-container">
                     <div className="achivement-details">
 
-                        <img loading="lazy" src="\img\yasser-portfolio-images\island-of-the-last-survivor-Screenshots\last11.png" alt="" />
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island2.jpg" alt="" />
                         <p>
                             <b style={{ color: "#fff" }}>Monster Spawning System:</b>  Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
                         </p>

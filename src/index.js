@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-// import PerLoader from "./perLoader";
+import PerLoader from "./perLoader";
 import { inject } from "@vercel/analytics";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import FirstProject from './component/sections/3Portfolio/projectslinks/FirstProject';
@@ -37,7 +37,7 @@ if (rootElement) {
   // Render both RouterProvider and PerLoader in the main root
   root.render(
     <React.StrictMode>
-      {/* <PerLoader /> */}
+      <PerLoader />
       <RouterProvider router={router} />
     </React.StrictMode>
   );

@@ -10,33 +10,44 @@ const portfolioImgs = ({
 function CardCreator(props) {
 
     // const [isHovered, setIsHovered] = useState(false);
- 
+
     // const handleMouseEnter = () => {
     //   setIsHovered(true);
     // //   isHovered = "autoPlay"
     // };
-   
+
     // const handleMouseLeave = () => {
     //   setIsHovered(false);
     // //   isHovered = ""
 
     // };
-   
+
     // const Mouseoverit = isHovered ? 'autoPlay' : '';
 
 
 
     return (
-        <div data-aos="fade-up" data-aos-duration={props.time} onClick={props.show}  className="portfolio-container2">
-            
-            <a id={props.gameID}  className="Portfo-img" href={props.link} >
+        <div data-aos="fade-up" data-aos-duration={props.time} onClick={props.show} className="portfolio-container2">
                 {/* <img id="portfolio-img" className="imgHover" src={props.img} alt="" /> */}
-                <video  id="portfolio-img" className="vid imgHover"   onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()}  muted loop  >
+                {/* <video  id="portfolio-img" className="vid imgHover"   onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()}  muted loop  >
                         <source  autoPlay type="video/mp4"  src={props.img} />
-                </video>
+                </video> */}
+
+            <a id={props.gameID} className="Portfo-img" href={props.link} >
+
+
+                <iframe loading="lazy" className=" portfoliodisplay imgHover" width="1280" height="720"
+                    src= {props.img}
+                    title="Pac-Runner: First-Person Maze Escape"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                >
+
+                </iframe>
             </a>
-           
-            
+
         </div>
     )
 }
