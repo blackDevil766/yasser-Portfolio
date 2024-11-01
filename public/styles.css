@@ -530,7 +530,6 @@ p {
 .hireMe-part {
     display: flex;
     gap: 8px;
-    width: 18%;
 }
 
 
@@ -2559,6 +2558,179 @@ background-size: cover;
     margin: 0 auto;
     justify-content: center;
 }
+
+
+
+
+ /**********************
+ *   update footer *
+    **********************/
+
+
+
+
+#EndPage {
+    height: 520px;
+    background-color: #000000;
+    color: #e1e1e1;
+    padding: 9% 5% 6% 5%;
+    position: relative;
+    z-index: 3;
+}
+
+.logoEndPage {
+    margin-bottom: 20px;
+}
+/* items part */
+
+.footerItems {
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+/* icons end Page */
+
+.Icons {
+    margin-top: 13px;
+    margin-left: 4px;
+    font-size: 18px;
+    border-radius: 3px;
+    position: relative;
+    display: grid;
+    transition: all 0.4s;
+    height: 39px;
+    overflow: hidden;
+}
+
+.ico {
+    cursor: pointer;
+    background-color: #222;
+    position: relative;
+    transition: all 0.4s;
+    padding: 10px 12px 10px 12px;
+}
+
+.Icons:hover .ico {
+    transform: translateY(-38px);
+}
+
+.Icons:hover .ico2 {
+    transform: translateY(-38px);
+}
+
+.ico2 {
+    cursor: pointer;
+    background-color: #222;
+    padding: 10px 12px 10px 12px;
+    position: relative;
+    font-size: 18px;
+    transition: all 0.4s;
+}
+
+.footerIco {
+    display: flex;
+    transition: all 0.4s;
+}
+
+.footerIco:hover .ico2 {
+    /* opacity: 0; */
+    transform: translateY(-38px);
+    transition: all 0.4s;
+    /* transition-duration: 0.25s; */
+    visibility: visible;
+}
+
+.footerIco:hover .ico {
+    transform: translateY(-38px);
+    transition: all 0.4s;
+}
+
+.iconsEndPage {
+    display: inline-flex;
+    gap: 5px;
+    position: relative;
+}
+
+.item2 {
+    line-height: 20px;
+}
+
+.footerHeaderText {
+    font-size: 25px;
+    font-family: 'Dongle', sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+
+.footerPara {
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.mailInserter {
+    display: inline-flex;
+}
+
+.footerInput {
+    position: relative;
+    left: 4px;
+    bottom: 10px;
+    width: 140%;
+    height: 45px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #191919;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    outline-style: unset;
+}
+
+.footerBtn {
+    border: 0;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 35%;
+    z-index: 1;
+    position: relative;
+    right: 13px;
+    bottom: 10px;
+    padding: 12px;
+    background-image: linear-gradient(150deg, #57048a 0%, #4528dc 78%);
+    color: #fff;
+}
+
+.footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    width: 100%;
+    /* position: relative;
+top: 105px;
+left: 40px; */
+    height: 70px;
+    padding-top: 25px;
+}
+
+.item1 {
+    width: 20%;
+}
+
+.footerText1 {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.footerText2 {
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
 
 /**********************
     /

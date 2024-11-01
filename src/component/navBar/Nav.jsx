@@ -76,14 +76,14 @@ function NavBar(props) {
 
            
 
-            <a href="#hireMe">
+            {/* <a href="#hireMe">
               <button
                 className="button btn"
                 variant="outline-success"
               >
                 Hire me
               </button>
-            </a>
+            </a> */}
           </div>
         </Navbar.Collapse>
       </Container>

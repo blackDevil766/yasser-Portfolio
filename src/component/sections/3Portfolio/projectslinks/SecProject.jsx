@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../../../navBar/Nav";
-import Footer from "../../10Footer/Footer";
+import Footer from "../../10Footer/Footer2";
 
 function SecProject() {
     return (
