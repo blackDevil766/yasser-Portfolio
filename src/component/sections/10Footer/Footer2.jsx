@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "emailjs-com"
 
 
 function Footer() {
+
+    const [email, setEmail] = useState('');
+
+    const sendMail = (e) => {
+        e.preventDefault();
+
+        if (email.trim() === '') {
+            alert('Please enter a valid email address.');
+            return;
+        }
+
+        // EmailJS configuration
+        const serviceID = 'service_otndgz8';
+        const templateID = 'template_toot9bs';
+        const userID = 'p20HjCYvv3Wan_gYu';
+
+        // Parameters to send
+        const templateParams = {
+            user_email: email,
+        };
+
+        emailjs.send(serviceID, templateID, templateParams, userID)
+            .then((response) => {
+                alert('Email sent successfully!');
+                console.log('SUCCESS!', response.status, response.text);
+            })
+            .catch((err) => {
+                console.error('FAILED...', err);
+            });
+    };
     return (
         <div id="EndPage">
+            <hr />
 
             <div className="footerItems">
 
@@ -25,79 +57,62 @@ function Footer() {
                             />
                         </svg>
                     </a>
-                    {/* <img id="nav-logo" className="logoEndPage navbar-brand" src="https://netstrom-angular.theme-land.com/assets/img/logo.png" alt="" /> */}
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
-                    <div className="iconsEndPage">
+                    <div id="contact" className="iconsEndPage">
 
-                        {/* <div className="footerIco"> */}
                         <div className="Icons">
                             <i title="facebook" className="ico fab fa-facebook-f" />
                             <i title="facebook" className="ico2 fab fa-facebook-f" />
                         </div>
-                        {/* </div> */}
 
-                        {/* <div className="footerIco"> */}
 
-                        {/* <div className="Icons">
-                            <i title="twitter" className="ico fab fa-twitter" ></i>
-                            <i title="twitter" className="ico2 fab fa-twitter" ></i>
-                        </div> */}
-                        {/* </div> */}
-
-                        {/* <div className="footerIco"> */}
                         <div className="Icons">
                             <i title="linkedin" className="ico fab fa-linkedin-in"></i>
                             <i title="linkedin" className="ico2 fab fa-linkedin-in"></i>
                         </div>
-                        {/* </div> */}
-
-                        {/* <div className="footerIco"> */}
                         <div className="Icons">
-                            {/* <i title="facebook" className="ico fab fa-vine"></i>
-                            <i title="facebook" className="ico2 fab fa-vine"></i> */}
 
                             <i title="github" className="ico fab fa-github"></i>
                             <i title="github" className="ico2 fab fa-github"></i>
                         </div>
-                        {/* </div> */}
 
                     </div>
                 </div>
 
-                {/* <div className="item2">
-                    <h1 className="footerHeaderText">Useful Links</h1>
-                    <p className="footerPara">All NFTs</p>
-                    <p className="footerPara">How It Works</p>
-                    <p className="footerPara">Create</p>
-                    <p className="footerPara">Explore</p>
-                    <p className="footerPara">Privacy & Terms</p>
-                </div>
-
-                <div className="item3">
-                    <h1 className="footerHeaderText">Community</h1>
-                    <p className="footerPara">Help Center</p>
-                    <p className="footerPara">Partners</p>
-                    <p className="footerPara">Suggestions</p>
-                    <p className="footerPara">Blog</p>
-                    <p className="footerPara">Newsletter</p>
-                </div> */}
 
                 <div className="item4">
-                    <form className="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="mailto:ahmedallam0101560@gmail.com">
+                    {/* <form className="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="mailto:ahmedallam0101560@gmail.com">
                         <h3 className="footerHeaderText">Mail Me</h3>
 
                     <div className="mailInserter">
                         <input className="footerInput" placeholder="info@yourmail.com" />
-                        {/* <button className="footerBtn"><i className="fal fa-paper-plane" style={{ fontSize: "18px" }}></i></button> */}
 
                     <button href="mailto:ahmedallam0101560@gmail.com" name="submit" type="submit"  className="footerBtn">
-                        {/* <span>SEND MESSAGE</span> */}
                         <i className="fal fa-paper-plane" style={{ fontSize: "18px" }}></i>
                     </button>
                     </div>
-                    </form>
+                    </form> */}
 
+
+                    <form className="rnt-contact-form rwt-dynamic-form row" onSubmit={sendMail}>
+                    <h3 className="footerHeaderText">Mail Me</h3>
+                    <div className="mailInserter">
+
+                        <input
+                        className="footerInput"
+                            type="email"
+                            placeholder="info@yourmail.com"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                        />
+                        <button type="submit" className="footerBtn">
+                            <i className="fal fa-paper-plane" style={{ fontSize: "18px" }}></i>
+                        </button>
+                    </div>
+
+                    </form>
                 </div>
 
             </div>

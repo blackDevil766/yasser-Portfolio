@@ -34,9 +34,9 @@ var timeout;
     AOS.init();
   }, [])
   return (
-    // <div className="App" onMouseMove="myFunction(event)">
+    <div className="App" onmousemove="myFunction(event)">
 
-    <div className="App" >
+    {/* <div className="App" > */}
       <NavBar />
 
     <div id="cursor"></div>

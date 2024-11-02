@@ -7,7 +7,6 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavBar(props) {
   const [onscrolls, setOnScroll] = useState();
-  // const [scrollto, setScrollto] = useState({});
 
 
   window.addEventListener("scroll", () => {
