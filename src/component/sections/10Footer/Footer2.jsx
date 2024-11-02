@@ -4,35 +4,48 @@ import emailjs from "emailjs-com"
 
 function Footer() {
 
-    const [email, setEmail] = useState('');
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: '',
+    });
 
     const sendMail = (e) => {
         e.preventDefault();
 
-        if (email.trim() === '') {
-            alert('Please enter a valid email address.');
+        const { name, email, message } = formData;
+
+        if (!name || !email || !message) {
+            alert('Please fill in all fields.');
             return;
         }
 
-        // EmailJS configuration
-        const serviceID = 'service_otndgz8';
-        const templateID = 'template_toot9bs';
-        const userID = 'p20HjCYvv3Wan_gYu';
+        const serviceID = 'service_3wz5s79';
+        const templateID = 'template_2jsmfa5';
+        const userID = 'Iogu1peRabHurp_c-';
 
-        // Parameters to send
         const templateParams = {
+            from_name: name,
             user_email: email,
+            message: message,
         };
 
         emailjs.send(serviceID, templateID, templateParams, userID)
             .then((response) => {
                 alert('Email sent successfully!');
                 console.log('SUCCESS!', response.status, response.text);
+                setFormData({ name: '', email: '', message: '' });
             })
             .catch((err) => {
                 console.error('FAILED...', err);
             });
     };
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({ ...prevData, [name]: value }));
+    };
+
     return (
         <div id="EndPage">
             <hr />
@@ -96,21 +109,80 @@ function Footer() {
 
 
                     <form className="rnt-contact-form rwt-dynamic-form row" onSubmit={sendMail}>
-                    <h3 className="footerHeaderText">Mail Me</h3>
-                    <div className="mailInserter">
+                        <h3 className="footerHeaderText">Mail Me</h3>
+                        <div className="mailInserter">
+                            {/* <input
+                                type="text"
+                                name="name"
+                                className="footerInput"
+                                placeholder="Your Name"
+                                value={formData.name}
+                                onChange={handleChange}
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                className="footerInput"
+                                placeholder="info@yourmail.com"
+                                value={formData.email}
+                                onChange={handleChange}
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                placeholder="Your Message"
+                                className="footerInput"
+                                value={formData.message}
+                                onChange={handleChange}
+                                required
+                            />
+                            <button type="submit" className="footerBtn">
+                                <i className="fal fa-paper-plane" style={{ fontSize: "18px" }}></i>
+                            </button> */}
 
-                        <input
-                        className="footerInput"
-                            type="email"
-                            placeholder="info@yourmail.com"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
-                        <button type="submit" className="footerBtn">
-                            <i className="fal fa-paper-plane" style={{ fontSize: "18px" }}></i>
-                        </button>
-                    </div>
+
+
+
+
+
+
+
+
+                            {/* <form className="rnt-contact-form rwt-dynamic-form row" onSubmit={sendMail}> */}
+                                <ul className="wrapper">
+
+                                    <li style={{ '--i': 4 }}>
+                                        <input
+                                            className="input" type="text"
+                                            name="name"
+                                            placeholder="Your Name"
+                                            value={formData.name}
+                                            onChange={handleChange}
+                                            required />
+                                    </li>
+                                    <li style={{ '--i': 3 }}>
+                                        <input
+                                            className="input" type="email"
+                                            name="email"
+                                            placeholder="info@yourmail.com"
+                                            value={formData.email}
+                                            onChange={handleChange}
+                                            required />
+                                    </li>
+                                    <li style={{ '--i': 2 }}>
+                                        <input
+                                         className="input" name="message"
+                                            placeholder="Your Message"
+                                            value={formData.message}
+                                            onChange={handleChange}
+                                            required />
+                                    </li>
+                                    <button type="submit" style={{ '--i': 1 }}>Submit</button>
+                                </ul>
+                            {/* </form> */}
+
+                        </div>
 
                     </form>
                 </div>
