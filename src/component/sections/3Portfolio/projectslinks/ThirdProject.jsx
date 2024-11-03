@@ -33,7 +33,10 @@ function ThirdProject() {
                         <div className="para-project-container">
                             <h2 className="last-surviver-header">Gameplay Systems:</h2>
                             <p>
-                                <b style={{ color: "#fff" }}>Building System:</b> a flexible, extendable system that allows players to gather resources and construct structures freely, with no space limitations, enabling them to build anywhere they choose.
+                                <b style={{ color: "#fff" }}>Building System:</b> a flexible, extendable system that allows players to gather resources and construct
+                            </p>
+                            <p>
+                                structures freely, with no space limitations, enabling them to build anywhere they choose.
                             </p>
                         </div>
                     </div>
@@ -41,13 +44,32 @@ function ThirdProject() {
 
 
                 <div className="achivement-container">
-                    <div className="achivement-details">
-                        <p>
-                            <b style={{ color: "#fff" }}>Item System:</b> As a developer, creating new items is simple and code-free, directly from the editor. Each item comes with predefined variables and enums, allowing you to easily customize its properties, such as designating it as food, a weapon, storable, or non-storable, depending on your needs.
-
-                            Monster Spawning System: Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
-                        </p>
+                    <div className="achivement-details achivement2">
                         <img src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island4.jpg" alt="" />
+                        <div className="para-project-container">
+                            <p>
+                                <b style={{ color: "#fff" }}>Item System:</b> As a developer, creating new items is simple and code-free,
+                            </p>
+
+                            <p>
+                             directly from the editor.  Each item comes with predefined variables and enums, 
+
+                            </p>
+
+                            <p>
+                            allowing you to easily customize its properties, such as designating it as food, a weapon,
+
+                            </p>
+
+                            <p>
+                             storable, or non-storable, depending on your needs.  Monster Spawning System: Monsters attack the player, 
+
+                            </p>
+
+                            <p>
+                            with attacks increasing in frequency and strength as time progresses.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -55,36 +77,42 @@ function ThirdProject() {
                     <div className="achivement-details">
 
                         <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island1.jpg" alt="" />
-                        <p>
-                            <b style={{ color: "#fff" }}>Inventory System:</b> Manages resources, and items.
-                        </p>
-
+                        <div className="para-project-container">
+                            <p>
+                                <b style={{ color: "#fff" }}>Inventory System:</b> Manages resources, and items.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="achivement-container">
-                    <div className="achivement-details">
+                    <div className="achivement-details achivement2">
+                        <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island3.jpg" alt="" />
+
                         <div className="para-project-container">
                             <h2 className="last-surviver-header">Weapons</h2>
                             <p><b style={{ color: "#fff" }}> Starting Weapon: </b> A machete is available at the beginning. </p>
                             <p><b style={{ color: "#fff" }}>Upgraded Weapon: </b>A better sword can be found later in the game.</p>
                         </div>
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island3.jpg" alt="" />
                     </div>
                 </div>
 
                 <div className="achivement-container">
                     <div className="achivement-details">
-
                         <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island2.jpg" alt="" />
-                        <p>
-                            <b style={{ color: "#fff" }}>Monster Spawning System:</b>  Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
-                        </p>
-
+                        <div className="para-project-container">
+                            <p>
+                                <b style={{ color: "#fff" }}>Monster Spawning System:</b>  Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
+                <a className="downloadBtn" href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
+                    <button className="button btn" type="submit">
+                        Download
+                    </button>
+                </a>
             </div>
             <Footer />
         </div>

@@ -43,16 +43,16 @@ function SecProject() {
 
 
                 <div className="achivement-container">
-                    <div className="achivement-details">
-                        <div className="para-project-container">
+                    <div className="achivement-details achivement2">
+                    <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve1.jpg" alt="" />
 
+                        <div className="para-project-container">
                             <h2 className="achivement-header">
                                 Developing the boss AI behavior: The boss has three distinct stages:
                             </h2>
 
                             <p> <b style={{ color: "#fff" }}> Ground Stage: </b> In this phase, the boss can dash toward the player and perform melee attacks. Additionally, he has a long-range attack where he hurls rocks at the player.</p>
                         </div>
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve1.jpg" alt="" />
                     </div>
                 </div>
 
@@ -68,7 +68,9 @@ function SecProject() {
 
 
                 <div className="achivement-container">
-                    <div className="achivement-details">
+                    <div className="achivement-details achivement2">
+                    <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve3.jpg" alt="" />
+
                         <div className="para-project-container">
 
                             <p>
@@ -76,10 +78,13 @@ function SecProject() {
                                 To overcome this,  <b style={{ color: "#fff" }} > the player must stick explosives to a rock and throw it at the boss to shatter the shield. </b>
                             </p>
                         </div>
-                        <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve3.jpg" alt="" />
                     </div>
                 </div>
-
+                <a className="downloadBtn" href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
+                    <button className="button btn" type="submit">
+                        Download
+                    </button>
+                </a>
             </div>
             <Footer />
         </div>

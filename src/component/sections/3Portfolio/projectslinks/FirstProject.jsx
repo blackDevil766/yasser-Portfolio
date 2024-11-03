@@ -37,7 +37,7 @@ function FirstProject() {
 
                 {/* First Image And Descripition */}
                 <div className="achivement-container">
-                    <div id="achivement-details2" className="achivement-details">
+                    <div id="achivement-details2" className="achivement-details achivement1">
 
                         <div className="image-project-container">
                             <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman2.jpg" alt="" />
@@ -66,7 +66,11 @@ function FirstProject() {
 
                 {/* Secondd Image And Descripition */}
                 <div className="achivement-container">
-                    <div id="achivement-details2" className="achivement-details">
+                    <div id="achivement-details2" className="achivement-details achivement2">
+
+                    <div className="image-project-container">
+                            <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman3.jpg" alt="" />
+                        </div>
                         <div className="para-project-container">
                             <h2 className="achivement-header">
                                 Strategic Use of Abilities
@@ -80,9 +84,7 @@ function FirstProject() {
                             </p>
                         </div>
 
-                        <div className="image-project-container">
-                            <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman3.jpg" alt="" />
-                        </div>
+                      
 
 
                     </div>
@@ -90,7 +92,7 @@ function FirstProject() {
 
                 {/* Third Image And Descripition */}
                 <div className="achivement-container">
-                    <div id="achivement-details2" className="achivement-details">
+                    <div id="achivement-details2" className="achivement-details achivement3">
 
                         <div className="image-project-container">
                             <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman1.jpg" alt="" />
@@ -112,11 +114,10 @@ function FirstProject() {
                     </div>
                 </div>
 
-                <a href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
+                <a className="downloadBtn" href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
                     <button className="button btn" type="submit">
                         Download
                     </button>
-
                 </a>
             </div>
             <Footer />

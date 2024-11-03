@@ -76,18 +76,23 @@ function Footer() {
 
                         <div className="Icons">
                             <i title="facebook" className="ico fab fa-facebook-f" />
-                            <i title="facebook" className="ico2 fab fa-facebook-f" />
+                            <a href="https://www.facebook.com/profile.php?id=100061077578511">
+                                <i title="facebook" className="ico2 fab fa-facebook-f" />
+                            </a>
                         </div>
 
 
                         <div className="Icons">
                             <i title="linkedin" className="ico fab fa-linkedin-in"></i>
-                            <i title="linkedin" className="ico2 fab fa-linkedin-in"></i>
+                            <a href="https://www.linkedin.com/in/yasser-allam-4b02ab331/">
+                                <i title="linkedin" className="ico2 fab fa-linkedin-in"></i>
+                            </a>
                         </div>
                         <div className="Icons">
-
                             <i title="github" className="ico fab fa-github"></i>
-                            <i title="github" className="ico2 fab fa-github"></i>
+                            <a href="https://github.com/Yasser-GD">
+                                <i title="github" className="ico2 fab fa-github"></i>
+                            </a>
                         </div>
 
                     </div>
@@ -150,36 +155,36 @@ function Footer() {
 
 
                             {/* <form className="rnt-contact-form rwt-dynamic-form row" onSubmit={sendMail}> */}
-                                <ul className="wrapper">
+                            <ul className="wrapper">
 
-                                    <li style={{ '--i': 4 }}>
-                                        <input
-                                            className="input" type="text"
-                                            name="name"
-                                            placeholder="Your Name"
-                                            value={formData.name}
-                                            onChange={handleChange}
-                                            required />
-                                    </li>
-                                    <li style={{ '--i': 3 }}>
-                                        <input
-                                            className="input" type="email"
-                                            name="email"
-                                            placeholder="info@yourmail.com"
-                                            value={formData.email}
-                                            onChange={handleChange}
-                                            required />
-                                    </li>
-                                    <li style={{ '--i': 2 }}>
-                                        <input
-                                         className="input" name="message"
-                                            placeholder="Your Message"
-                                            value={formData.message}
-                                            onChange={handleChange}
-                                            required />
-                                    </li>
-                                    <button type="submit" style={{ '--i': 1 }}>Submit</button>
-                                </ul>
+                                <li style={{ '--i': 4 }}>
+                                    <input
+                                        className="input" type="text"
+                                        name="name"
+                                        placeholder="Your Name"
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        required />
+                                </li>
+                                <li style={{ '--i': 3 }}>
+                                    <input
+                                        className="input" type="email"
+                                        name="email"
+                                        placeholder="info@yourmail.com"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        required />
+                                </li>
+                                <li style={{ '--i': 2 }}>
+                                    <input
+                                        className="input" name="message"
+                                        placeholder="Your Message"
+                                        value={formData.message}
+                                        onChange={handleChange}
+                                        required />
+                                </li>
+                                <button className="submitBtn" type="submit" style={{ '--i': 1 }}>Submit</button>
+                            </ul>
                             {/* </form> */}
 
                         </div>

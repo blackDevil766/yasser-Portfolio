@@ -257,7 +257,7 @@ p {
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     transition: all 0.5s;
     backdrop-filter: blur(5px);
-    z-index: 100;
+    z-index: 100 !important;
 }
 .navbar-expand-lg{
     z-index: 1;
@@ -270,7 +270,7 @@ p {
     top: 0;
     opacity: 1;
     transition: all 0.5s;
-    z-index: 100;
+    z-index: 100 !important;
 }
 
 
@@ -1071,7 +1071,7 @@ hr {
     width: 100%;
     height: 50px;
     color: #000;
-    background: #3c3c3c;
+    /* background: #3c3c3c; */
     border: 0 !important;
 
     border-bottom-left-radius: 10px;
@@ -2573,6 +2573,22 @@ background-size: cover;
 
 
 
+.downloadBtn{
+    width: 90%;
+    margin: 180px auto 10px auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.achivement2{
+    flex-direction: row-reverse;
+}
+
+
 
  /**********************
  *   update footer *
@@ -2712,7 +2728,7 @@ background-size: cover;
 /* From Uiverse.io by andrew-demchenk0 */ 
 /* you can choose any color you want. don't be afraid to experiment  */
 
-.input, button {
+.input, .submitBtn {
     width: 100%;
     height: 40px;
     position: relative;
@@ -2723,7 +2739,7 @@ background-size: cover;
 
 
   
-  button {
+  .submitBtn {
     background: #777777;
     border: none;
   }
@@ -2733,7 +2749,7 @@ background-size: cover;
     transform: skewY(-14deg);
   }
   
-  .wrapper li, button {
+  .wrapper li, .submitBtn {
     position: relative;
     list-style: none;
     width: 200px;
@@ -2742,7 +2758,7 @@ background-size: cover;
     color: white;
   }
   
-  .wrapper li::before, button::before {
+  .wrapper li::before, .submitBtn::before {
     position: absolute;
     content: '';
     background: #777777;
@@ -2755,7 +2771,7 @@ background-size: cover;
     transition: 0.3s;
   }
   
-  .wrapper li::after, button::after {
+  .wrapper li::after, .submitBtn::after {
     position: absolute;
     content: '';
     background: #777777;
@@ -2818,15 +2834,15 @@ background-size: cover;
     border: 3.5px solid #777777;
   }
   
-  .wrapper li:hover, button:hover {
+  .wrapper li:hover, .submitBtn:hover {
     transform: translateX(-20px);
   }
   
-  button:hover, button:hover::before, button:hover::after {
+  .submitBtn:hover, .submitBtn:hover::before, .submitBtn:hover::after {
     background: #575cb5;
   }
   
-  button:active {
+  .submitBtn:active {
     transform: translateX(0px);
   }
   
@@ -3134,7 +3150,7 @@ left: 40px; */
     }
 
     .typo {
-        font-size: 30px;
+        font-size: 60px;
     }
 
     .typoChanger {
@@ -3147,11 +3163,13 @@ left: 40px; */
     }
 
     .description {
-        font-size: 18px;
+        font-size: 23px;
         width: 100%;
         max-width: 100%;
         margin-bottom: 80px;
-        padding-right: 0;
+        color: #fff;
+        padding: 0 36px;
+
     }
 
     .left-contanir {
@@ -3189,6 +3207,7 @@ left: 40px; */
         background-image: none;
         position: relative;
         bottom: 50px;
+        text-align: center;
     }
 
 
@@ -3365,6 +3384,11 @@ left: 40px; */
         max-width: 100%;
     }
 
+    .achivement-details{
+        flex-direction: column;
+    }
+
+
     /**********************
   * my resume SECTION *
 ***********************/
@@ -3479,6 +3503,8 @@ left: 40px; */
     .social-icone {
         display: flex;
     }
+    
+    
 
     /******************
  * FOOTER SECTION *
@@ -3486,5 +3512,16 @@ left: 40px; */
     .footer-container {
         margin-left: 12px;
     }
-}
 
+
+    .welcome-carousel-img{
+        object-fit: cover;
+    }
+
+    .item1{
+        width: 100%;
+    }
+
+    
+
+}
