@@ -5,9 +5,14 @@ import Footer from "../../10Footer/Footer2";
 function SecProject() {
     return (
         <div className="firstProject-contianer">
+
             <NavBar />
             <div className="projects-container">
 
+            <div className="explanation-about-game">
+                    <h4><span className="toolsTitle">Tools:</span> <span className="tools-details">Unreal Engine 5 & C++</span></h4>
+                    <h4> <span className="toolsTitle">Time frame:</span> <span className="tools-details">2 month</span></h4>
+                </div>
 
             <iframe loading="lazy" className="vid" width="1280" height="720"
                     src="https://www.youtube-nocookie.com/embed/DDoWVFYxKbA?&autoplay=1&loop=1&mute=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&loop=1&playlist=DDoWVFYxKbA"

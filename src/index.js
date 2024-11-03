@@ -29,6 +29,10 @@ const router = createBrowserRouter([
   }
 ]);
 
+
+
+
+
 // Locate the main root element
 const rootElement = document.getElementById("root");
 if (rootElement) {

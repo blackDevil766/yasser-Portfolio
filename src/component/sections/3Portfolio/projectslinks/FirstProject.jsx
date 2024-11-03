@@ -3,15 +3,16 @@ import NavBar from "../../../navBar/Nav";
 import Footer from "../../10Footer/Footer2";
 
 function FirstProject() {
+
     return (
         <div className="firstProject-contianer">
+
             <NavBar />
             <div className="projects-container">
 
                 <div className="explanation-about-game">
-                    Tools
-                    : Unreal Engine 5 & C++
-                    Time frame: 3 month
+                    <h4><span className="toolsTitle">Tools:</span> <span className="tools-details">Unreal Engine 5 & C++</span></h4>
+                    <h4> <span className="toolsTitle">Time frame:</span> <span className="tools-details">1 month</span></h4>
                 </div>
                 
 

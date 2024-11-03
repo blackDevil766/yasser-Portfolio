@@ -4,6 +4,33 @@ body {
     /* cursor: none; */
 }
 
+/* .Portfo-img{
+    cursor: none !important;
+}
+
+li .input{
+    cursor: none;
+}
+.btn{
+    cursor: none !important;
+}
+
+.nav-item{
+    cursor: none;
+}
+
+.ico {
+    cursor: none !important;
+}
+
+.ico2{
+    cursor: none !important;
+}
+
+.submitBtn{
+    cursor: none !important;
+} */
+
 .App {
     color: #fff;
 
@@ -553,10 +580,10 @@ p {
 }
 
 .welcomeToMyWorldSection-continer {
-    width: 90%;
+    width:100%;
     display: flex;
     margin: 0px auto;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .left-contanir {
@@ -618,7 +645,7 @@ p {
 }
 
 .welcomeToMyWorldSection-right {
-    margin-right: 45px;
+    margin-left: 120px;
     align-items: flex-end;
     justify-content: center;
     justify-content: center;
@@ -653,7 +680,7 @@ p {
 .typo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 54px;
+    font-size: 50px;
     color: #fff;
 }
 
@@ -2568,14 +2595,25 @@ hr {
 
 .explanation-about-game {
     display: flex ;
-    justify-content: left;
+    justify-content:space-between;
     font-size: large;
-    width: 90%;
-    margin: 0 auto;
-    margin-left: 340px;
+    font-size: 14px;
+    width: 65%;
+    margin: 10px auto;
+    /* margin-left: 340px; */
     margin-bottom: 10px;
+    flex-direction: column;
 }
 
+.toolsTitle{
+    color: rgb(190, 152, 82);
+    font-size: 20px;
+}
+
+.tools-details{
+    color: #b9b9b9;
+    font-size: 17px;
+}
 
 
 .downloadBtn {
@@ -3575,4 +3613,14 @@ left: 40px; */
         width: 90%;
     }
 
+    .Portfo-img{
+        cursor: none;
+    }
+
+    li .input{
+        cursor: none;
+    }
+    .btn{
+        cursor: none;
+    }
 }

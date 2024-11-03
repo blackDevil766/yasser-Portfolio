@@ -66,7 +66,7 @@ function NavBar(props) {
           </Nav>
 
           <div className="hireMe-part">
-            <a href="img\Ahmed'sResume.pdf" target="_blank" download>
+            <a href="img\Yasser-allam-resume.pdf" target="_blank" download>
               <button  className="button btn" type="submit">
                 Resume
               </button>

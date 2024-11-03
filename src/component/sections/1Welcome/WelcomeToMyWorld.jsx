@@ -54,8 +54,7 @@ function WelcomeToMyWorld() {
               </span>
             </h1>
             <p className="description">
-              a Front End Web Developer, using React.js as a Framework and also
-              using multiple languages, Creative in some points, and can do anything I see into Code, ambition to learn a lot of new skills to improve myself.
+              
             </p>
           </div>
         </div>
