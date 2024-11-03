@@ -1,4 +1,3 @@
-
 body {
     overflow-x: hidden;
     margin: 0;
@@ -36,14 +35,14 @@ body {
     z-index: 12;
 }
 
-.welcomeToMyWebSite{
+.welcomeToMyWebSite {
     /* margin-bottom: 50vw; */
     background-color: #141414 !important;
 }
 
-.App{
+.App {
     background-size: 40px 40px;
-   
+
 }
 
 
@@ -56,13 +55,13 @@ body {
     top: 0;
     bottom: 0;
     z-index: 0;
-  }
+}
 
-  .welcomeToMyWebSite{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 86vh;
+.welcomeToMyWebSite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
 }
 
 .fullscreen-bg__video {
@@ -91,31 +90,32 @@ body {
     height: 100%;
 }
 
-#cursor{
+#cursor {
     position: fixed;
     margin-top: -5px;
     margin-left: -12px;
     width: 25px;
     height: 25px;
-    border-top: 5px solid #0f0;    
-    border-left: 5px solid #0f0;    
+    border-top: 5px solid #0f0;
+    border-left: 5px solid #0f0;
     transform-origin: top;
-    transform: translate(-1px,5px) rotate(15deg) scale(0);
+    transform: translate(-1px, 5px) rotate(15deg) scale(0);
     z-index: 10000;
     transition: all visibility transform 1.1s;
     pointer-events: none;
     animation: animate 5s linear infinite;
 }
 
-.App:hover #cursor{
-    transform: translate(11px,5px) rotate(15deg) scale(1);
+.App:hover #cursor {
+    transform: translate(11px, 5px) rotate(15deg) scale(1);
 }
 
-@keyframes animate{
-    0%{
+@keyframes animate {
+    0% {
         filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 15px #0f0) drop-shadow(0 0 30px #0f0) hue-rotate(0deg);
     }
-    100%{
+
+    100% {
         filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 15px #0f0) drop-shadow(0 0 30px #0f0) hue-rotate(360deg);
     }
 }
@@ -123,7 +123,7 @@ body {
 
 
 a {
-    color: #3bb74a;
+    color: #be9852;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -259,14 +259,15 @@ p {
     backdrop-filter: blur(5px);
     z-index: 100 !important;
 }
-.navbar-expand-lg{
+
+.navbar-expand-lg {
     z-index: 1;
 }
 
 #nav2 {
     width: 100%;
     z-index: 2 !important;
-    
+
     top: 0;
     opacity: 1;
     transition: all 0.5s;
@@ -292,9 +293,10 @@ p {
     text-transform: uppercase;
     color: #ffffff !important;
     box-shadow: 0px 0px 4px;
-   }
-   
-   .btn::after, .btn::before {
+}
+
+.btn::after,
+.btn::before {
     content: '';
     display: block;
     height: 100%;
@@ -309,30 +311,30 @@ p {
     background-color: #ececec;
     box-shadow: 0px 0px 4px !important;
 
-   }
-   
-   .btn::before {
+}
+
+.btn::before {
     top: -50%;
     left: -25%;
     transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-   }
-   
-   .btn:hover::before {
+}
+
+.btn:hover::before {
     transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-   }
-   
-   .btn:hover::after {
+}
+
+.btn:hover::after {
     transform: skew(45deg) translate(-50%, -50%);
-   }
-   
-   .btn:hover {
+}
+
+.btn:hover {
     color: rgb(0, 0, 0) !important;
-   }
-   
-   .btn:active {
+}
+
+.btn:active {
     filter: brightness(.7);
     transform: scale(.98);
-   }
+}
 
 #NavSignUpBtn {
     font-size: 12px;
@@ -353,8 +355,8 @@ p {
 #NavSignUpBtn:hover,
 #NavSignUpBtn:focus,
 #NavSignUpBtn:active {
-    background: #3bb74a;
-    box-shadow: 3px 0px 0px 1px #3bb74a, 2px 2px 0px 3px #3bb74a;
+    background: #be9852;
+    box-shadow: 3px 0px 0px 1px #be9852, 2px 2px 0px 3px #be9852;
     transition: all 0.5s !important;
     transition-duration: 0.3s;
 }
@@ -449,7 +451,7 @@ p {
     transition: all 0.5s;
 }
 
-#othersNavItemScroll{
+#othersNavItemScroll {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #fff;
@@ -458,11 +460,11 @@ p {
 
 
 
-#othersNavItemScroll:hover{
-    color: #909090; 
+#othersNavItemScroll:hover {
+    color: #909090;
 }
 
-.nav-link{
+.nav-link {
     color: #fff;
 }
 
@@ -516,8 +518,8 @@ p {
 #signUpBtn:hover,
 #signUpBtn:focus,
 #signUpBtn:active {
-    background: #3bb74a;
-    box-shadow: 3px 0px 0px 1px #3bb74a, 2px 2px 0px 3px #3bb74a;
+    background: #be9852;
+    box-shadow: 3px 0px 0px 1px #be9852, 2px 2px 0px 3px #be9852;
     transition: all 0.5s !important;
     transition-duration: 0.3s;
 }
@@ -590,7 +592,7 @@ p {
     position: relative;
 }
 
-.personal-img::before{
+.personal-img::before {
     content: "asfgasgas";
     background-color: red;
     height: 100%;
@@ -612,7 +614,7 @@ p {
 }
 
 .subName {
-    color: #3bb74a;
+    color: #be9852;
 }
 
 .welcomeToMyWorldSection-right {
@@ -631,8 +633,7 @@ p {
     opacity: 1;
 }
 
-.frontImg {
-}
+.frontImg {}
 
 .welcomeToMyWorldSection-left {
     display: flex;
@@ -644,7 +645,7 @@ p {
 }
 
 .pleasureLine {
-    color: #3bb74a;
+    color: #be9852;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -673,20 +674,20 @@ p {
     opacity: 0.9;
 }
 
-.as{
+.as {
     width: 100%;
 }
 
-.homes{
-    
-    z-index: 1 ;
+.homes {
+
+    z-index: 1;
     width: 100%;
 
 }
 
 
 
-.carousel{
+.carousel {
     /* position: absolute !important;
     top: 0px;
     float: none !important;
@@ -706,13 +707,13 @@ p {
 }
 
 
-.welcome-carousel-img{
+.welcome-carousel-img {
     background-size: cover !important;
     width: 100%;
     height: 100vh;
 }
 
-.d{
+.d {
     width: 100%;
     /* height: 100vh; */
     object-fit: cover;
@@ -794,7 +795,7 @@ p {
             * SECOND SECTION *
 
 ******************/
-.skills-container{
+.skills-container {
     display: flex;
     justify-content: center;
 }
@@ -840,7 +841,7 @@ hr {
 }
 
 .subtitle {
-    color: #3bb74a;
+    color: #be9852;
     letter-spacing: 1px;
     display: block;
     line-height: 14px;
@@ -914,7 +915,7 @@ hr {
 }
 
 .about-title {
-    color: #3bb74a;
+    color: #be9852;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -951,7 +952,7 @@ hr {
 .feather {
     width: 50px;
     height: auto;
-    color: #3bb74a;
+    color: #be9852;
     stroke-width: 1 !important;
 }
 
@@ -988,7 +989,7 @@ hr {
 }
 
 .subtitle2 {
-    color: #3bb74a;
+    color: #be9852;
     letter-spacing: 1px;
     display: block;
     font-size: 14px;
@@ -1066,7 +1067,7 @@ hr {
     border-bottom-right-radius: 20px;
 } */
 
-.portfolio-container2:hover::before{
+.portfolio-container2:hover::before {
     content: "hello its yasser allam";
     width: 100%;
     height: 50px;
@@ -1082,7 +1083,7 @@ hr {
     left: 0;
     bottom: 0;
     display: flex;
-    z-index:-1;
+    z-index: -1;
     transform: translate(0px, 13px);
 }
 
@@ -1102,7 +1103,7 @@ hr {
     cursor: pointer;
 }
 
-#pac-runner::before{
+#pac-runner::before {
     position: absolute;
     content: "Pac Runner";
     text-align: center;
@@ -1118,14 +1119,14 @@ hr {
     transition: all 0.5s;
 }
 
-#pac-runner:hover::before{
+#pac-runner:hover::before {
     z-index: 0;
     backdrop-filter: blur(0px);
     transition: all 0.5s;
 }
 
 
-#Revenge::before{
+#Revenge::before {
     position: absolute;
     content: "Revenge";
     text-align: center;
@@ -1141,14 +1142,14 @@ hr {
     transition: all 0.5s;
 }
 
-#Revenge:hover::before{
+#Revenge:hover::before {
     z-index: 0;
     backdrop-filter: blur(0px);
     transition: all 0.5s;
 }
 
 
-#IslandOfTheLastSurvivor::before{
+#IslandOfTheLastSurvivor::before {
     position: absolute;
     content: "IslandOfTheLastSurvivor";
     text-align: center;
@@ -1164,7 +1165,7 @@ hr {
     transition: all 0.5s;
 }
 
-#IslandOfTheLastSurvivor:hover::before{
+#IslandOfTheLastSurvivor:hover::before {
     z-index: 0;
     backdrop-filter: blur(0px);
     transition: all 0.5s;
@@ -1194,7 +1195,7 @@ hr {
 }
 
 .category-list a {
-    color: #3bb74a;
+    color: #be9852;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -1430,7 +1431,7 @@ hr {
     height: 55px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: #3bb74a;
+    color: #be9852;
 }
 
 .viewBtn {
@@ -1439,7 +1440,7 @@ hr {
     height: 55px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: #3bb74a;
+    color: #be9852;
 }
 
 .closeIco {
@@ -1449,7 +1450,7 @@ hr {
 }
 
 .closeIco:hover {
-    filter: #3bb74a;
+    filter: #be9852;
 }
 
 .closeDiv {
@@ -1467,8 +1468,8 @@ hr {
 
 .closeDiv:hover {
     transform: translateY(-33px);
-    background: #3bb74a;
-    box-shadow: 1px 1px 0px 0px #3bb74a, 2px 1px 0px 1px #3bb74a;
+    background: #be9852;
+    box-shadow: 1px 1px 0px 0px #be9852, 2px 1px 0px 1px #be9852;
     transition-property: transform background-color box-shadow;
     transition-duration: 0.5s;
 }
@@ -1497,21 +1498,21 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-  }
-  
-  .up {
+}
+
+.up {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
-  }
-  
-  .down {
+}
+
+.down {
     display: flex;
     flex-direction: row;
     gap: 0.5em;
-  }
-  
-  .card1 {
+}
+
+.card1 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -1520,15 +1521,15 @@ hr {
     border-radius: 90px 5px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
-  }
-  
-  .instagram {
+}
+
+.instagram {
     margin-top: 1.5em;
     margin-left: 1.2em;
     fill: #cc39a4;
-  }
-  
-  .card2 {
+}
+
+.card2 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -1537,15 +1538,15 @@ hr {
     border-radius: 5px 90px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
-  }
-  
-  .twitter {
+}
+
+.twitter {
     margin-top: 1.5em;
     margin-left: -.9em;
     fill: #03A9F4;
-  }
-  
-  .card3 {
+}
+
+.card3 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -1554,14 +1555,14 @@ hr {
     border-radius: 5px 5px 5px 90px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
-  }
-  
-  .github {
+}
+
+.github {
     margin-top: -.6em;
     margin-left: 1.2em;
-  }
-  
-  .card4 {
+}
+
+.card4 {
     width: 90px;
     height: 90px;
     outline: none;
@@ -1570,53 +1571,53 @@ hr {
     border-radius: 5px 5px 90px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
-  }
-  
-  .discord {
+}
+
+.discord {
     margin-top: -.9em;
     margin-left: -1.2em;
     fill: #8c9eff;
-  }
-  
-  .card1:hover {
+}
+
+.card1:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: #cc39a4;
-  }
-  
-  .card1:hover .instagram {
+}
+
+.card1:hover .instagram {
     fill: white;
-  }
-  
-  .card2:hover {
+}
+
+.card2:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: #03A9F4;
-  }
-  
-  .card2:hover .twitter {
+}
+
+.card2:hover .twitter {
     fill: white;
-  }
-  
-  .card3:hover {
+}
+
+.card3:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: black;
-  }
-  
-  .card3:hover .github {
+}
+
+.card3:hover .github {
     fill: white;
-  }
-  
-  .card4:hover {
+}
+
+.card4:hover {
     cursor: pointer;
     scale: 1.1;
     background-color: #8c9eff;
-  }
-  
-  .card4:hover .discord {
+}
+
+.card4:hover .discord {
     fill: white;
-  }
+}
 
 
 
@@ -1638,7 +1639,7 @@ hr {
 
 .headerParagrafe {
     text-transform: uppercase;
-    color: #3bb74a;
+    color: #be9852;
     letter-spacing: 1px;
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
@@ -1665,7 +1666,7 @@ hr {
     height: 12px;
     border-radius: 50%;
     margin: 8px;
-    background-color: #3bb74a !important;
+    background-color: #be9852 !important;
     box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
     transition: background-color 1s;
 }
@@ -1679,7 +1680,7 @@ hr {
 #active {
     background-color: #f8f8f8dd;
     box-shadow: 1px 1px #b1b1b1, 2px 2px #b1b1b1, 3px 3px #b1b1b1, 4px 4px #b1b1b1, 5px 5px #b1b1b1, 6px 6px #b1b1b1, 7px 7px #b1b1b1, 8px 8px #b1b1b1;
-    color: #3bb74a;
+    color: #be9852;
 }
 
 
@@ -1730,13 +1731,13 @@ hr {
     font-weight: 500;
     border-radius: 10px;
     color: #878e99;
-    /* color: #3bb74a; */
+    /* color: #be9852; */
     transition-property: all;
     transition-duration: 0.5s;
 }
 
 .choosenTitle:hover {
-    color: #3bb74a;
+    color: #be9852;
 }
 
 
@@ -1769,7 +1770,7 @@ hr {
 
 .p-detalis {
     margin: 0px;
-    color: #3bb74a;
+    color: #be9852;
     letter-spacing: 2px;
     font-size: 14px;
     font-family: "Poppins", sans-serif;
@@ -1795,8 +1796,8 @@ hr {
 }
 
 .personal-portfolio:hover {
-    background: #3bb74a;
-    box-shadow: 3px 0px 0px 1px #3bb74a, 11px 2px 0px 3px #3bb74a;
+    background: #be9852;
+    box-shadow: 3px 0px 0px 1px #be9852, 11px 2px 0px 3px #be9852;
     transition: all 0.4s !important;
 }
 
@@ -1808,7 +1809,7 @@ hr {
 
 .title-personal1,
 .title-personal2 {
-    color: #3bb74a;
+    color: #be9852;
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     line-height: 39px;
@@ -1865,12 +1866,12 @@ hr {
 }
 
 .personal-portfolio:hover .title-personal1::before {
-    background-color: #3bb74a;
+    background-color: #be9852;
     transition: background-color 0.4s;
 }
 
 .personal-portfolio:hover .title-personal2::before {
-    background-color: #3bb74a;
+    background-color: #be9852;
     transition: background-color 0.4s;
 }
 
@@ -1890,7 +1891,7 @@ hr {
 .score {
     padding: 7px 16px;
     border-radius: 7px;
-    color: #3bb74a;
+    color: #be9852;
     background-color: #E3F1FF;
     box-shadow: 6px 5px 0px 0px #aac9ad, 4px 3px 0px 2px #aebdb3;
     font-family: "Poppins", sans-serif;
@@ -2021,7 +2022,7 @@ hr {
     overflow: visible;
     position: relative;
     border-radius: 14px;
-    background: #3bb74a !important;
+    background: #be9852 !important;
 }
 
 .fadeIt .progress-bar {
@@ -2065,9 +2066,9 @@ hr {
     text-align: center;
     border-radius: 50%;
     margin-bottom: 15px;
-    color: #ffffff;
+    color: #be9852;
     box-shadow: 5px 3px 6px #8b8b8b;
-    font-size: 10px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 1.9;
@@ -2078,7 +2079,7 @@ hr {
 
 }
 
-.heading-h6:hover{
+.heading-h6:hover {
     box-shadow: 0px 0px 26px #383838;
     transition: all 0.5s;
     transform: scale(1.1);
@@ -2122,8 +2123,8 @@ hr {
     transition: all 0.4s;
     background-image: url("img/yasser-portfolio-images/island-of-the-last-survivor-Screenshots/pac20.png");
     background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .left-contact:hover {
@@ -2208,7 +2209,7 @@ background-size: cover;
 .phone a:hover,
 .mail a:hover {
     transition: 0.4s;
-    color: #3bb74a;
+    color: #be9852;
 }
 
 .phone a:before,
@@ -2219,7 +2220,7 @@ background-size: cover;
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #3bb74a;
+    background: #be9852;
     height: 1px;
     transition-property: right;
     transition-duration: 0.3s;
@@ -2294,7 +2295,7 @@ background-size: cover;
     border-radius: 10px;
     padding: 32px 32px 20px 32px;
     transition: all;
-    height:800px;
+    height: 800px;
 }
 
 
@@ -2321,7 +2322,7 @@ background-size: cover;
     transition: 0.5s;
     color: #191b1e;
     background-color: #ffffff;
-    outline: 2px solid #3bb74a;
+    outline: 2px solid #be9852;
 }
 
 .form-group textarea {
@@ -2344,7 +2345,7 @@ background-size: cover;
 .form-group textarea:focus {
     transition: 0.4s;
     color: #191b1e;
-    outline: 2px solid #3bb74a;
+    outline: 2px solid #be9852;
     background-color: #ffffff;
 }
 
@@ -2370,7 +2371,7 @@ background-size: cover;
     border: 0 none;
     display: flex;
     justify-content: center;
-    color: #3bb74a;
+    color: #be9852;
     list-style: none;
     text-decoration: none;
     padding: 16px;
@@ -2380,9 +2381,9 @@ background-size: cover;
 .rn-btn:hover {
     transition: all 0.4s;
     transform: translateY(-5px);
-    background: #3bb74a;
+    background: #be9852;
     color: #fff;
-    box-shadow: 3px 0px 0px 1px #3bb74a, 11px 2px 0px 3px #3bb74a;
+    box-shadow: 3px 0px 0px 1px #be9852, 11px 2px 0px 3px #be9852;
 }
 
 .contact-btn {
@@ -2451,7 +2452,7 @@ background-size: cover;
 
 .footer p span:hover {
     transition: 0.4s;
-    color: #3bb74a;
+    color: #be9852;
 }
 
 .footer p span:before {
@@ -2461,7 +2462,7 @@ background-size: cover;
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #3bb74a;
+    background: #be9852;
     height: 1px;
     transition-property: right;
     transition-duration: 0.3s;
@@ -2479,7 +2480,7 @@ background-size: cover;
 }
 
 
-.vid{
+.vid {
     object-fit: cover;
     width: 65%;
     /* height: fit-content;     */
@@ -2491,7 +2492,7 @@ background-size: cover;
 }
 
 
-.portfoliodisplay{
+.portfoliodisplay {
     object-fit: cover;
     width: 500px;
     height: 280px;
@@ -2502,38 +2503,39 @@ background-size: cover;
     border-radius: 30px;
 }
 
-.last-surviver-header{
-    margin-bottom: 24px ;
+.last-surviver-header {
+    margin-bottom: 24px;
 }
 
-.firstProject-contianer{
+.firstProject-contianer {
     background-color: #000;
     color: #fff;
 }
 
-.project-details{
+.project-details {
     width: 90%;
     margin: 20px auto;
 }
 
-.project-details p{
+.project-details p {
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
-    line-height:30px;
+    line-height: 30px;
     letter-spacing: 1px;
     margin: 20px auto 0px auto;
 }
 
-.project-details-header{
+.project-details-header {
     margin: 0 auto;
     align-items: center;
     text-align: center;
     letter-spacing: 15px;
     text-transform: uppercase;
+    color: #be9852;
 }
 
-.achivement-details{
+.achivement-details {
     display: flex;
     width: 90%;
     margin: 140px auto 0 auto;
@@ -2543,14 +2545,14 @@ background-size: cover;
 
 }
 
-.achivement-details img{
+.achivement-details img {
     height: 430px;
     object-fit: contain;
     border-radius: 20px;
     box-shadow: 3px 0px 54px 1px #1c1e22, 1px -1px 8px #262a2e;
 }
 
-.achivement-details p{
+.achivement-details p {
     width: 100%;
     padding: 0 120px 0 0;
     font-size: 20px;
@@ -2560,20 +2562,23 @@ background-size: cover;
     margin: 0;
 }
 
-#achivement-details2 p{
+#achivement-details2 p {
     width: 100%;
 }
 
-.explanation-about-game{
-    display: flex;
+.explanation-about-game {
+    display: flex ;
+    justify-content: left;
+    font-size: large;
     width: 90%;
     margin: 0 auto;
-    justify-content: center;
+    margin-left: 340px;
+    margin-bottom: 10px;
 }
 
 
 
-.downloadBtn{
+.downloadBtn {
     width: 90%;
     margin: 180px auto 10px auto;
     text-align: center;
@@ -2584,13 +2589,13 @@ background-size: cover;
 
 
 
-.achivement2{
+.achivement2 {
     flex-direction: row-reverse;
 }
 
 
 
- /**********************
+/**********************
  *   update footer *
     **********************/
 
@@ -2609,6 +2614,7 @@ background-size: cover;
 .logoEndPage {
     margin-bottom: 20px;
 }
+
 /* items part */
 
 .footerItems {
@@ -2617,8 +2623,9 @@ background-size: cover;
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 100px;   
+    margin-bottom: 100px;
 }
+
 /* icons end Page */
 
 .Icons {
@@ -2725,40 +2732,43 @@ background-size: cover;
 
 
 
-/* From Uiverse.io by andrew-demchenk0 */ 
+/* From Uiverse.io by andrew-demchenk0 */
 /* you can choose any color you want. don't be afraid to experiment  */
 
-.input, .submitBtn {
+.input,
+.submitBtn {
     width: 100%;
     height: 40px;
     position: relative;
     padding: 10px;
     border: 0.1px solid #575cb5;
     color: #fff;
-  }
+}
 
 
-  
-  .submitBtn {
+
+.submitBtn {
     background: #777777;
     border: none;
-  }
-  
-  .wrapper {
+}
+
+.wrapper {
     position: relative;
     transform: skewY(-14deg);
-  }
-  
-  .wrapper li, .submitBtn {
+}
+
+.wrapper li,
+.submitBtn {
     position: relative;
     list-style: none;
     width: 200px;
     z-index: var(--i);
     transition: 0.3s;
     color: white;
-  }
-  
-  .wrapper li::before, .submitBtn::before {
+}
+
+.wrapper li::before,
+.submitBtn::before {
     position: absolute;
     content: '';
     background: #777777;
@@ -2769,9 +2779,10 @@ background-size: cover;
     transform-origin: right;
     transform: skewY(45deg);
     transition: 0.3s;
-  }
-  
-  .wrapper li::after, .submitBtn::after {
+}
+
+.wrapper li::after,
+.submitBtn::after {
     position: absolute;
     content: '';
     background: #777777;
@@ -2782,70 +2793,76 @@ background-size: cover;
     transform-origin: bottom;
     transform: skewX(45deg);
     transition: 0.3s;
-  }
-  
-  .wrapper li:nth-child(1)::after, .wrapper li:nth-child(1)::before {
+}
+
+.wrapper li:nth-child(1)::after,
+.wrapper li:nth-child(1)::before {
     background-color: #161616;
-  }
-  
-  .wrapper li:nth-child(2)::after, .wrapper li:nth-child(2)::before {
+}
+
+.wrapper li:nth-child(2)::after,
+.wrapper li:nth-child(2)::before {
     background-color: #161616;
-  }
-  
-  .wrapper li:nth-child(3)::after, .wrapper li:nth-child(3)::before {
+}
+
+.wrapper li:nth-child(3)::after,
+.wrapper li:nth-child(3)::before {
     background-color: #161616;
-  }
-  
-  li .input {
+}
+
+li .input {
     outline: none;
     border: none;
     color: rgb(255, 255, 255);
-  }
-  
-  li .input::placeholder {
+}
+
+li .input::placeholder {
     color: rgb(247, 247, 247);
-  }
-  
-  li:nth-child(1) .input {
+}
+
+li:nth-child(1) .input {
     background: #161616;
-  }
-  
-  li:nth-child(2) .input {
+}
+
+li:nth-child(2) .input {
     background: #161616;
-  }
-  
-  li:nth-child(3) .input {
+}
+
+li:nth-child(3) .input {
     background: #0f0f0f;
-  }
-  
-  
-  li:nth-child(1) .input:focus {
+}
+
+
+li:nth-child(1) .input:focus {
     outline: none;
     border: 3.5px solid #777777;
-  }
-  
-  li:nth-child(2) .input:focus {
+}
+
+li:nth-child(2) .input:focus {
     outline: none;
     border: 3.5px solid #777777;
-  }
-  
-  li:nth-child(3) .input:focus {
+}
+
+li:nth-child(3) .input:focus {
     outline: none;
     border: 3.5px solid #777777;
-  }
-  
-  .wrapper li:hover, .submitBtn:hover {
+}
+
+.wrapper li:hover,
+.submitBtn:hover {
     transform: translateX(-20px);
-  }
-  
-  .submitBtn:hover, .submitBtn:hover::before, .submitBtn:hover::after {
+}
+
+.submitBtn:hover,
+.submitBtn:hover::before,
+.submitBtn:hover::after {
     background: #575cb5;
-  }
-  
-  .submitBtn:active {
+}
+
+.submitBtn:active {
     transform: translateX(0px);
-  }
-  
+}
+
 
 
 
@@ -2993,7 +3010,7 @@ left: 40px; */
 
     * ************************/
     /*  */
-    .welcomeToMyWebSite{
+    .welcomeToMyWebSite {
         padding-top: 57px;
     }
 
@@ -3300,6 +3317,7 @@ left: 40px; */
 
 
     */
+
     /********************
  * PORTFILO SECTION *
 ********************/
@@ -3308,8 +3326,13 @@ left: 40px; */
     }
 
     .portfolio-boxes {
-        display: block;
+        /* display: block; */
         width: 93%;
+    }
+
+    .achivement-details p{
+        padding: 0;
+        text-align: center;
     }
 
     .portfolio-container {
@@ -3384,7 +3407,7 @@ left: 40px; */
         max-width: 100%;
     }
 
-    .achivement-details{
+    .achivement-details {
         flex-direction: column;
     }
 
@@ -3393,12 +3416,12 @@ left: 40px; */
   * my resume SECTION *
 ***********************/
 
-.skills-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
     .resumeHolder {
@@ -3503,8 +3526,8 @@ left: 40px; */
     .social-icone {
         display: flex;
     }
-    
-    
+
+
 
     /******************
  * FOOTER SECTION *
@@ -3514,14 +3537,42 @@ left: 40px; */
     }
 
 
-    .welcome-carousel-img{
+    .welcome-carousel-img {
         object-fit: cover;
     }
 
-    .item1{
+    .item1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .footer p {
+        margin-top: 0;
+    }
+
+    body {
+        cursor: none;
+    }
+
+    .image-project-container img {
+        height: auto;
         width: 100%;
     }
 
-    
+    .achivement-details img{
+        width: 100%;
+        height: auto;
+    }
+
+    .vid{
+        width: 90%;
+    }
 
 }

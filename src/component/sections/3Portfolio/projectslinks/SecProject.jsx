@@ -51,7 +51,7 @@ function SecProject() {
                                 Developing the boss AI behavior: The boss has three distinct stages:
                             </h2>
 
-                            <p> <b style={{ color: "#fff" }}> Ground Stage: </b> In this phase, the boss can dash toward the player and perform melee attacks. Additionally, he has a long-range attack where he hurls rocks at the player.</p>
+                            <p> <b style={{ color: "#be9852" }}> Ground Stage: </b> In this phase, the boss can dash toward the player and perform melee attacks. Additionally, he has a long-range attack where he hurls rocks at the player.</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ function SecProject() {
                     <div className="achivement-details">
                         <img loading="lazy" src="\img\yasser-portfolio-images\Revenge-resized-images\Reve2.jpg" alt="" />
                         <p>
-                        <b style={{ color: "#fff" }}>Floating Stage:</b> While floating, the boss has two variations of rock throws. He can either pick up nearby rocks and throw them, or he can telekinetically lift rocks from the ground.
+                        <b style={{ color: "#be9852" }}>Floating Stage:</b> While floating, the boss has two variations of rock throws. He can either pick up nearby rocks and throw them, or he can telekinetically lift rocks from the ground.
                             The player can anticipate this second attack because the rocks will vibrate on the ground before being launched.
                         </p>
                     </div>
@@ -74,13 +74,13 @@ function SecProject() {
                         <div className="para-project-container">
 
                             <p>
-                                <b style={{ color: "#fff" }}> Shield Stage: </b> The boss generates a protective fire shield around himself, which can only be broken by heavy damage.
-                                To overcome this,  <b style={{ color: "#fff" }} > the player must stick explosives to a rock and throw it at the boss to shatter the shield. </b>
+                                <b style={{ color: "#be9852" }}> Shield Stage: </b> The boss generates a protective fire shield around himself, which can only be broken by heavy damage.
+                                To overcome this,  <b style={{ color: "#be9852" }} > the player must stick explosives to a rock and throw it at the boss to shatter the shield. </b>
                             </p>
                         </div>
                     </div>
                 </div>
-                <a className="downloadBtn" href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
+                <a className="downloadBtn" href="https://yasserallam.itch.io/revenge" download>
                     <button className="button btn" type="submit">
                         Download
                     </button>

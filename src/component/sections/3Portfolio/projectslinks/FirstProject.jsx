@@ -9,15 +9,17 @@ function FirstProject() {
             <div className="projects-container">
 
                 <div className="explanation-about-game">
-                    tools
-                    shit
+                    Tools
+                    : Unreal Engine 5 & C++
+                    Time frame: 3 month
                 </div>
+                
 
                 <iframe loading="lazy" className="vid" width="1280" height="720"
                     src="https://www.youtube-nocookie.com/embed/dQQwUtSKIsI?&autoplay=1&loop=1&mute=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&loop=1&playlist=dQQwUtSKIsI"
                     title="Pac-Runner: First-Person Maze Escape"
-                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen>
 
@@ -45,7 +47,7 @@ function FirstProject() {
 
                         <div className="para-project-container">
                             <p>
-                                <b style={{ color: "gray" }}>Unique First-Person Perspective : </b> Unlike traditional Pac-Man games,
+                                <b style={{ color: "#be9852" }}>Unique First-Person Perspective : </b> Unlike traditional Pac-Man games,
                             </p>
                             <p>
                                 your version offers a first-person view, which immerses players directly into the maze.
@@ -77,10 +79,10 @@ function FirstProject() {
                             </h2>
                             <p className="achivement-para"> Players can collect and store special abilities like:</p>
                             <p>
-                                <b style={{ color: "gray" }}>Map Guide : </b>Reveals the layout of the maze, helping players plan their route.
+                                <b style={{ color: "#be9852" }}>Map Guide : </b>Reveals the layout of the maze, helping players plan their route.
                             </p>
                             <p>
-                                <b style={{ color: "gray" }}>Ghost Freeze : </b>Freezes enemies for a short period, giving players time to collect food or strategize.
+                                <b style={{ color: "#be9852" }}>Ghost Freeze : </b>Freezes enemies for a short period, giving players time to collect food or strategize.
                             </p>
                         </div>
 
@@ -105,16 +107,16 @@ function FirstProject() {
                             </h3>
 
                             <p>
-                                <b style={{ color: "gray" }}> Ghost Eater : </b>Grants the ability to defeat ghosts, adding an offensive layer to the gameplay.
+                                <b style={{ color: "#be9852" }}> Ghost Eater : </b>Grants the ability to defeat ghosts, adding an offensive layer to the gameplay.
                             </p>
                             <p>
-                                <b style={{ color: "gray" }}>Speed Boost : </b>Temporarily increases movement speed to escape or evade danger.
+                                <b style={{ color: "#be9852" }}>Speed Boost : </b>Temporarily increases movement speed to escape or evade danger.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <a className="downloadBtn" href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
+                <a className="downloadBtn" href="https://yasserallam.itch.io/pac-runner" target="" download>
                     <button className="button btn" type="submit">
                         Download
                     </button>

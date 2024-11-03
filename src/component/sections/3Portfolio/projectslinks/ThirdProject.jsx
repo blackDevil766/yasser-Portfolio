@@ -33,7 +33,7 @@ function ThirdProject() {
                         <div className="para-project-container">
                             <h2 className="last-surviver-header">Gameplay Systems:</h2>
                             <p>
-                                <b style={{ color: "#fff" }}>Building System:</b> a flexible, extendable system that allows players to gather resources and construct
+                                <b style={{ color: "#be9852" }}>Building System:</b> a flexible, extendable system that allows players to gather resources and construct
                             </p>
                             <p>
                                 structures freely, with no space limitations, enabling them to build anywhere they choose.
@@ -48,7 +48,7 @@ function ThirdProject() {
                         <img src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island4.jpg" alt="" />
                         <div className="para-project-container">
                             <p>
-                                <b style={{ color: "#fff" }}>Item System:</b> As a developer, creating new items is simple and code-free,
+                                <b style={{ color: "#be9852" }}>Item System:</b> As a developer, creating new items is simple and code-free,
                             </p>
 
                             <p>
@@ -79,7 +79,7 @@ function ThirdProject() {
                         <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island1.jpg" alt="" />
                         <div className="para-project-container">
                             <p>
-                                <b style={{ color: "#fff" }}>Inventory System:</b> Manages resources, and items.
+                                <b style={{ color: "#be9852" }}>Inventory System:</b> Manages resources, and items.
                             </p>
                         </div>
                     </div>
@@ -92,8 +92,8 @@ function ThirdProject() {
 
                         <div className="para-project-container">
                             <h2 className="last-surviver-header">Weapons</h2>
-                            <p><b style={{ color: "#fff" }}> Starting Weapon: </b> A machete is available at the beginning. </p>
-                            <p><b style={{ color: "#fff" }}>Upgraded Weapon: </b>A better sword can be found later in the game.</p>
+                            <p><b style={{ color: "#be9852" }}> Starting Weapon: </b> A machete is available at the beginning. </p>
+                            <p><b style={{ color: "#be9852" }}>Upgraded Weapon: </b>A better sword can be found later in the game.</p>
                         </div>
                     </div>
                 </div>
@@ -103,12 +103,12 @@ function ThirdProject() {
                         <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island2.jpg" alt="" />
                         <div className="para-project-container">
                             <p>
-                                <b style={{ color: "#fff" }}>Monster Spawning System:</b>  Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
+                                <b style={{ color: "#be9852" }}>Monster Spawning System:</b>  Monsters attack the player, with attacks increasing in frequency and strength as time progresses.
                             </p>
-                        </div>
+                        </div> 
                     </div>
                 </div>
-                <a className="downloadBtn" href="\img\game dowloader\Pac-Runner.zip" target="_blank" download>
+                <a className="downloadBtn" href="https://yasserallam.itch.io/island-of-the-last-survivor"  download>
                     <button className="button btn" type="submit">
                         Download
                     </button>

@@ -71,7 +71,7 @@ function Footer() {
                         </svg>
                     </a>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
+                    <p>Get to know me better here</p>
                     <div id="contact" className="iconsEndPage">
 
                         <div className="Icons">
