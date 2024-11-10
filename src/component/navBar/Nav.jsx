@@ -58,7 +58,7 @@ function NavBar(props) {
               <Item text="PORTFOLIO" />
             </Nav.Link>
             <Nav.Link href="#resume">
-              <Item text="RESUME" linkIt="#resume" />
+              <Item text="SKILLS" linkIt="#resume" />
             </Nav.Link>
             <Nav.Link href="#contact">
               <Item text="CONTACT" />

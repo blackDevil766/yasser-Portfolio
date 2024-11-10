@@ -12,9 +12,10 @@ function ProfessionalSkills(props) {
 
 
                 <Skill heading="C++" percent="95%" />
-                <Skill heading="Unreal" percent="90%" />
+                <Skill heading="Unreal engine 5" percent="95%" />
                 <Skill heading="Design patterns" percent="80%" />
-                <Skill heading="GitHub" percent="90%" />
+                <Skill heading="Problem solving" percent="90%" />
+                <Skill heading="GitHub" percent="80%" />
 
             </div>
         </div>
