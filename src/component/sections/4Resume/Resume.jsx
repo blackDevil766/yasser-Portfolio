@@ -12,7 +12,7 @@ function Resume() {
         <div id="resume" className="resume-container">
             <hr />
             <div  className="header-container">
-                <p data-aos="fade-down" data-aos-duration="1500" className="headerParagrafe">1.5+ years of experience</p>
+                <p data-aos="fade-down" data-aos-duration="1500" className="headerParagrafe">2.5+ years of experience</p>
                 <h1 data-aos="fade-down" data-aos-duration="1000" className="headerTitle">Technical Experience</h1>
                 <p  className="p-detalis">Skills</p>
             </div>

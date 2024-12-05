@@ -23,10 +23,11 @@ function Features() {
 
                 <div className="about-left-sectiom">
                     <h1 className="about-title">Welcome to my humble zoon</h1>
-                    <p className="about-decribtion">Aspiring Game Programmer with a passion for creating immersive and engaging games. Developed
-                        three fully functional games as part of self-learning, mastering game design, coding, and problem
-                        solving. Skilled in Unreal Engine, C++, and game mechanics. Eager to apply self-taught skills and
-                        creativity to a professional role in the game development industry.</p>
+                    <p className="about-decribtion">2 years ago I started by making some of the fundamentals that everyone is making as their first games like (Brick Breaker, Battery man, etc) after that 
+                        I began to make some of my own games so I developed pacman in first person but the player has his advantages, after that 
+                        I created a boss fight demo where I really wanted to test a specific mechanic and make a boss that's hard to defeat, then made island of the last survivor 
+                        I learned a lot from this game it has a building system, inventory system, items system, monster spawning system. 
+                    now I dropped out of college to start my journey in the games industry.</p>
                 </div>
             </div>
         </div>
