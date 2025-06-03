@@ -10,7 +10,8 @@ function Portfolio() {
             <hr />
 
             <div className="header-portoflio">
-                <p data-aos="fade-down" data-aos-duration="1500" className="subtitle2">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
+                <p data-aos="fade-down" data-aos-duration="1500" className="subtitle2">HAVE A LOOK AND LET ME KNOW WHAT DO YOU THINK</p>
+                <p data-aos="fade-down" data-aos-duration="1500" className="subtitle2">" IF VIDEOS DIDN'T WORK RELOAD THE PAGE " </p>
                 {/* <h1 className="title2">My Portfolio</h1> */}
                 <h1 data-aos="fade-down" data-aos-duration="1000" className="title2">My Portfolio</h1>
             </div>

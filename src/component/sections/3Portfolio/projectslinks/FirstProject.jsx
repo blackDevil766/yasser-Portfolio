@@ -13,6 +13,7 @@ function FirstProject() {
                 <div className="explanation-about-game">
                     <h4><span className="toolsTitle">Tools:</span> <span className="tools-details">Unreal Engine 5 & C++</span></h4>
                     <h4> <span className="toolsTitle">Time frame:</span> <span className="tools-details">1 month</span></h4>
+                    <h4><span className="mytools-details">" IF VIDEOS DIDN'T WORK RELOAD THE PAGE "</span></h4>
                 </div>
                 
 
