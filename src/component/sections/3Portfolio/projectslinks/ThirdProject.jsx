@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../../10Footer/Footer2";
-import ProjectsNav from "../../../navBar/ProjectsNav";
+import NavBar from '../../../navBar/Nav';
 
 function ThirdProject() {
     return (
         <div className="project-container">
             
-            <ProjectsNav />
+            <NavBar />
 
             <div className="projects-container">
 
