@@ -47,7 +47,20 @@ export default function ProjectsNav() {
                     id="navbarItemsContainer"
                 >
                     <Nav.Link href="/#">
-                        <Item time="1500" text="🏠 Home" style={{fontSize: '24px'}} />
+                        <Item time="1500" text="Home" />
+                    </Nav.Link>
+                    <Nav.Link href="/FirstProject">
+                        <Item text="1st Project" />
+                    </Nav.Link>
+                    <Nav.Link href="/SecProject">
+                        <Item time="1500" text="2nd Project" />
+                    </Nav.Link>
+                    <Nav.Link href="/ThirdProject">
+                        <Item text="3rd Project" />
+                    </Nav.Link>
+                    <Nav.Link href="/FourthProject">
+                        {/*  linkIt="#resume" */}
+                        <Item text="FourthProject" />
                     </Nav.Link>
                 </Nav>
 
