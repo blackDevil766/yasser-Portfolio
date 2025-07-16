@@ -51,16 +51,17 @@ function NavBar(props) {
             <Nav.Link href="/#">
               <Item time="1500" text="HOME" />
             </Nav.Link>
-            <Nav.Link href="#AboutMe">
+            <Nav.Link href="/#AboutMe">
               <Item time="1500" text="ABOUT" />
             </Nav.Link>
-            <Nav.Link href="#portfolio">
+            <Nav.Link href="/#portfolio">
               <Item text="PORTFOLIO" />
             </Nav.Link>
-            <Nav.Link href="#resume">
-              <Item text="SKILLS" linkIt="#resume" />
+            <Nav.Link href="/#resume">
+              {/*  linkIt="#resume" */}
+              <Item text="SKILLS" />
             </Nav.Link>
-            <Nav.Link href="#contact">
+            <Nav.Link href="/#contact">
               <Item text="CONTACT" />
             </Nav.Link>
           </Nav>
