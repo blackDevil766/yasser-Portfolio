@@ -1,13 +1,14 @@
 import React from "react";
-import NavBar from "../../../navBar/Nav";
 import Footer from "../../10Footer/Footer2";
+import NavBar from '../../../navBar/Nav';
 
 function FirstProject() {
 
     return (
-        <div className="firstProject-contianer">
+        <div className="project-container">
 
             <NavBar />
+
             <div className="projects-container">
 
                 <div className="explanation-about-game">
@@ -49,7 +50,8 @@ function FirstProject() {
 
                         <div className="para-project-container">
                             <p>
-                                <b style={{ color: "#be9852" }}>Unique First-Person Perspective : </b> Unlike traditional Pac-Man games,
+                                <p className="text-gold">Unique First-Person Perspective : </p>
+                                Unlike traditional Pac-Man games,
                             </p>
                             <p>
                                 your version offers a first-person view, which immerses players directly into the maze.
@@ -76,15 +78,15 @@ function FirstProject() {
                             <img loading="lazy" src="\img\yasser-portfolio-images\Pac-runner-resized-images\pacman3.jpg" alt="" />
                         </div>
                         <div className="para-project-container">
-                            <h2 className="achivement-header">
-                                Strategic Use of Abilities
+                            <h2 className="achivement-header" style={{color: '#be9852'}}>
+                                Strategic Use of Abilities:
                             </h2>
                             <p className="achivement-para"> Players can collect and store special abilities like:</p>
                             <p>
-                                <b style={{ color: "#be9852" }}>Map Guide : </b>Reveals the layout of the maze, helping players plan their route.
+                                <span className="text-gold">Map Guide : </span>Reveals the layout of the maze, helping players plan their route.
                             </p>
                             <p>
-                                <b style={{ color: "#be9852" }}>Ghost Freeze : </b>Freezes enemies for a short period, giving players time to collect food or strategize.
+                                <span className="text-gold">Ghost Freeze : </span>Freezes enemies for a short period, giving players time to collect food or strategize.
                             </p>
                         </div>
 
@@ -104,7 +106,7 @@ function FirstProject() {
 
 
                         <div className="para-project-container">
-                            <h3 className="achivement-header">
+                            <h3 className="achivement-header" style={{color: '#be9852'}}>
                                 And there is also :
                             </h3>
 

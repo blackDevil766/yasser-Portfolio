@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Item from "./Item";
 import Tilt from "react-parallax-tilt"; 
 import Container from "react-bootstrap/Container";
@@ -8,14 +8,25 @@ import Navbar from "react-bootstrap/Navbar";
 function NavBar(props) {
   const [onscrolls, setOnScroll] = useState();
 
+  const [isProjectPage, setIsProjectPage] = useState(false);
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY >= 150) {
-      setOnScroll("nav");
-    } else {
-      setOnScroll("nav2");
-    }
-  });
+  useEffect(() => {
+    // check if this page is a project page or not
+    const path = document.location.pathname;
+    const match = ['FirstProject', 'SecProject', 'ThirdProject', 'FourthProject'].some(page =>
+      path.includes(page)
+    );
+    setIsProjectPage(match);
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY >= 150) {
+        setOnScroll("nav");
+      } else {
+        setOnScroll("nav2");
+      }
+    });
+  }, []);
+
 
   return (
     <Navbar id={onscrolls} className="navbar" expand="lg">
@@ -41,43 +52,67 @@ function NavBar(props) {
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px", margin: "0 auto" }}
-            navbarScroll
-            id="navbarItemsContainer"
-          >
-            <Nav.Link href="/#">
-              <Item time="1500" text="HOME" />
-            </Nav.Link>
-            <Nav.Link href="#AboutMe">
-              <Item time="1500" text="ABOUT" />
-            </Nav.Link>
-            <Nav.Link href="#portfolio">
-              <Item text="PORTFOLIO" />
-            </Nav.Link>
-            <Nav.Link href="#resume">
-              <Item text="SKILLS" linkIt="#resume" />
-            </Nav.Link>
-            <Nav.Link href="#contact">
-              <Item text="CONTACT" />
-            </Nav.Link>
-          </Nav>
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="me-auto my-2 my-lg-0"
+              style={{ maxHeight: "100px", margin: "0 auto" }}
+              navbarScroll
+              id="navbarItemsContainer"
+            >
+              {}
+              <Nav.Link href="/#">
+                <Item time="1500" text="HOME" />
+              </Nav.Link>
+              {/* If it's a project page, the NavBar will render the links of the first scope */}
+              {/* If not, it will render the links of the second scope */}
+              {isProjectPage ?
+                <>
+                  <Nav.Link href="/FirstProject">
+                      <Item text="1st Project" />
+                  </Nav.Link>
+                  <Nav.Link href="/SecProject">
+                      <Item time="1500" text="2nd Project" />
+                  </Nav.Link>
+                  <Nav.Link href="/ThirdProject">
+                      <Item text="3rd Project" />
+                  </Nav.Link>
+                  <Nav.Link href="/FourthProject">
+                      {/*  linkIt="#resume" */}
+                      <Item text="4th Project" />
+                  </Nav.Link>
+                </>
+                :
+                <>
+                  <Nav.Link href="/#AboutMe">
+                    <Item time="1500" text="ABOUT" />
+                  </Nav.Link>
+                  <Nav.Link href="/#portfolio">
+                    <Item text="PORTFOLIO" />
+                  </Nav.Link>
+                  <Nav.Link href="/#resume">
+                    {/*  linkIt="#resume" */}
+                    <Item text="SKILLS" />
+                  </Nav.Link>
+                  <Nav.Link href="/#contact">
+                    <Item text="CONTACT" />
+                  </Nav.Link>
+                </>
+               }
+            </Nav>
 
-          <div className="hireMe-part">
-            <a href="img\Yasser-allam-resume.pdf" target="_blank" download>
-              <button  className="button btn" type="submit">
-                Resume
-              </button>
-              
-            </a>
+            <div className="hireMe-part">
+              <a href="img\Yasser-allam-resume.pdf" target="_blank" download>
+                <button  className="button btn" type="submit">
+                  Resume
+                </button>
+                
+              </a>
 
-           
+            
 
-          
-          </div>
-        </Navbar.Collapse>
+            
+            </div>
+          </Navbar.Collapse>
       </Container>
     </Navbar>
 
