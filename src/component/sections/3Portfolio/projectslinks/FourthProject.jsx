@@ -100,7 +100,7 @@ function FourthProject() {
                 <div className="achivement-container">
                     <div className="para-project-container" style={{textAlign: 'center'}}>
                         <h2 className="project-details-header" style={{marginBottom: '0'}}>Axe & Rope Mechanics</h2>
-                        <p>Mechanic for throwing and retrieving an axe.</p>
+                        <p style={{fontSize: '19px'}}>Mechanic for throwing and retrieving an axe.</p>
                         <p className="game-system-description" style={{ maxWidth: '700px', margin: '0 auto 10px'}}>
                             <span className="text-gold big-text" style={{marginTop: '20px'}}>Main Mechanic:</span>
                             <br/>
