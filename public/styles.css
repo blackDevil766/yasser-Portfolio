@@ -315,7 +315,7 @@ p {
     cursor: pointer;
     z-index: 1;
     font-weight: 300;
-    font-size: 14px !important;
+    font-size: 20px !important;
     font-family: 'Roboto', 'Segoe UI', sans-serif;
     text-transform: uppercase;
     color: #ffffff !important;
@@ -1178,7 +1178,7 @@ hr {
 
 #IslandOfTheLastSurvivor::before {
     position: absolute;
-    content: "IslandOfTheLastSurvivor";
+    content: "Island Of The Last Survivor";
     text-align: center;
     display: flex;
     justify-content: center;
@@ -1193,6 +1193,28 @@ hr {
 }
 
 #IslandOfTheLastSurvivor:hover::before {
+    z-index: 0;
+    backdrop-filter: blur(0px);
+    transition: all 0.5s;
+}
+
+#Gameplay_Tutorial::before {
+    position: absolute;
+    content: "Gameplay Tutorial";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(199, 199, 199);
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s;
+}
+
+#Gameplay_Tutorial:hover::before {
     z-index: 0;
     backdrop-filter: blur(0px);
     transition: all 0.5s;
@@ -2531,7 +2553,10 @@ hr {
 }
 
 .last-surviver-header {
-    margin-bottom: 24px;
+    font-size: 45px;
+    color: #be9852;
+    margin-bottom: 80px;
+    margin-left: 190px;
 }
 
 .firstProject-contianer {
@@ -2554,12 +2579,18 @@ hr {
 }
 
 .project-details-header {
-    margin: 0 auto;
+
+      margin-bottom: 50px;
+    margin-top: 50px;
     align-items: center;
     text-align: center;
     letter-spacing: 15px;
     text-transform: uppercase;
     color: #be9852;
+}
+
+.horizontal-Line{
+    width: 50% !important;
 }
 
 .achivement-details {
@@ -2570,6 +2601,47 @@ hr {
     align-items: center;
     gap: 40px;
 
+}
+
+.Grid-Imags{
+
+   width: 90%;
+    gap: 5px;
+     align-items: center;
+     margin-left: 200px;
+    /* height: 430px; */
+    /* object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 3px 0px 54px 1px #1c1e22, 1px -1px 8px #262a2e; */
+}
+
+.achivement-details-Images-test{
+     display: flex;
+    width: 90%;
+    margin: 90px auto 130px auto;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+    flex-direction: column-reverse;
+
+}
+
+.achivement-details-Images-test p {
+     width: 70%;
+    font-size: 20px;
+    line-height: 2;
+    color: #c5c5c5;
+    font-family: system-ui;
+    align-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.OneImage-Grid{
+     height: 250px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 3px 0px 54px 1px #1c1e22, 1px -1px 8px #262a2e;
 }
 
 .achivement-details img {
@@ -2632,8 +2704,9 @@ hr {
 
 
 
+
 .achivement2 {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 
@@ -2641,8 +2714,6 @@ hr {
 /**********************
  *   update footer *
     **********************/
-
-
 
 
 #EndPage {

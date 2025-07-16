@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import FirstProject from './component/sections/3Portfolio/projectslinks/FirstProject';
 import SecProject from "./component/sections/3Portfolio/projectslinks/SecProject";
 import ThirdProject from "./component/sections/3Portfolio/projectslinks/ThirdProject";
-
+import FourthProject from "./component/sections/3Portfolio/projectslinks/FourthProject";
 inject();
 
 const router = createBrowserRouter([
@@ -26,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/thirdproject",
     element: <ThirdProject />
+  },
+  {
+    path: "/fourthProject",
+    element: <FourthProject />
   }
 ]);
 
