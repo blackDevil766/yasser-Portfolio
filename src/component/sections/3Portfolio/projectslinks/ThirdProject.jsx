@@ -1,19 +1,19 @@
 import React from "react";
-import NavBar from "../../../navBar/Nav";
 import Footer from "../../10Footer/Footer2";
-
+import ProjectsNav from "../../../navBar/ProjectsNav";
 
 function ThirdProject() {
     return (
-        <div className="firstProject-contianer">
+        <div className="project-container">
             
-            <NavBar />
+            <ProjectsNav />
+
             <div className="projects-container">
 
-            <div className="explanation-about-game">
-                    <h4><span className="toolsTitle">Tools:</span> <span className="tools-details">Unreal Engine 5 & C++ & %40 Blueprints</span></h4>
-                    <h4> <span className="toolsTitle">Time frame:</span> <span className="tools-details">5 month</span></h4>
-                    <h4><span className="mytools-details">" IF VIDEOS DIDN'T WORK RELOAD THE PAGE "</span></h4>
+                <div className="explanation-about-game">
+                        <h4><span className="toolsTitle">Tools:</span> <span className="tools-details">Unreal Engine 5 & C++ & %40 Blueprints</span></h4>
+                        <h4> <span className="toolsTitle">Time frame:</span> <span className="tools-details">5 month</span></h4>
+                        <h4><span className="mytools-details">" IF VIDEOS DIDN'T WORK RELOAD THE PAGE "</span></h4>
                 </div>
 
                 <iframe loading="lazy" className="vid" width="1280" height="720"
@@ -22,7 +22,6 @@ function ThirdProject() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen>
-
                 </iframe>
 
                 <div className="project-details">
@@ -34,11 +33,13 @@ function ThirdProject() {
                         Featuring a building system, inventory management, and escalating monster encounters, Island of the Last Survivor tests your survival skills. Will you have what it takes to outlast the monsters and sail to freedom before the island claims your life too?
                     </p>
                 </div>
+                
                 <div className="achivement-container">
                     <div className="achivement-details">
                         <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island5.jpg" alt="" />
                         <div className="para-project-container">
-                            <h2 className="last-surviver-header">Gameplay Systems:</h2>
+                            {/* last-surviver-header */}
+                            <h2 className="project-details-header">Gameplay Systems:</h2>
                             <p>
                                 <b style={{ color: "#be9852" }}>Building System:</b> a flexible, extendable system that allows players to gather resources and construct
                             </p>
@@ -98,7 +99,7 @@ function ThirdProject() {
                         <img loading="lazy" src="\img\yasser-portfolio-images\Island-of-the-last-survivor-resized-images\Island3.jpg" alt="" />
 
                         <div className="para-project-container">
-                            <h2 className="last-surviver-header">Weapons</h2>
+                            <h2 className="project-details-header">Weapons</h2>
                             <p><b style={{ color: "#be9852" }}> Starting Weapon: </b> A machete is available at the beginning. </p>
                             <p><b style={{ color: "#be9852" }}>Upgraded Weapon: </b>A better sword can be found later in the game.</p>
                         </div>
