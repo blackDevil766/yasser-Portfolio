@@ -60,7 +60,7 @@ export default function ProjectsNav() {
                     </Nav.Link>
                     <Nav.Link href="/FourthProject">
                         {/*  linkIt="#resume" */}
-                        <Item text="FourthProject" />
+                        <Item text="4th Project" />
                     </Nav.Link>
                 </Nav>
 
