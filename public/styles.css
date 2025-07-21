@@ -2625,6 +2625,12 @@ hr {
     }
 
 }
+@media (width > 768px) {
+    .game-system-description {
+        font-size: 20px;
+    }
+
+}
 
 .achivement-details img {
     height: 430px;
