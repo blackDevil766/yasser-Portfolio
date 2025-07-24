@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Item from "./Item";
-import Tilt from "react-parallax-tilt"; 
+import Tilt from "react-parallax-tilt";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -31,7 +31,7 @@ function NavBar(props) {
   return (
     <Navbar id={onscrolls} className="navbar" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">
+        {/* <Navbar.Brand href="#">
           <Tilt>
             <svg
               width="67pt"
@@ -49,70 +49,79 @@ function NavBar(props) {
               />
             </svg>
           </Tilt>
-        </Navbar.Brand>
+        </Navbar.Brand> */}
+
+        <a
+          className="navbar-brand navLogo"
+          style={{ height: "80px", paddingLeft: "100px", fontSize: "26px", color: "rgb(7, 30, 85)" }}
+          href="#"
+        >
+          <img id="LogoIcon" src="https://axonprofiles.com/wp-content/uploads/2024/07/Asset-2-2.png" alt="" />
+
+        </a>
 
         <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px", margin: "0 auto" }}
-              navbarScroll
-              id="navbarItemsContainer"
-            >
-              {}
-              <Nav.Link href="/#">
-                <Item time="1500" text="HOME" />
-              </Nav.Link>
-              {/* If it's a project page, the NavBar will render the links of the first scope */}
-              {/* If not, it will render the links of the second scope */}
-              {isProjectPage ?
-                <>
-                  <Nav.Link href="/FirstProject">
-                      <Item text="1st Project" />
-                  </Nav.Link>
-                  <Nav.Link href="/SecProject">
-                      <Item time="1500" text="2nd Project" />
-                  </Nav.Link>
-                  <Nav.Link href="/ThirdProject">
-                      <Item text="3rd Project" />
-                  </Nav.Link>
-                  <Nav.Link href="/FourthProject">
-                      {/*  linkIt="#resume" */}
-                      <Item text="4th Project" />
-                  </Nav.Link>
-                </>
-                :
-                <>
-                  <Nav.Link href="/#AboutMe">
-                    <Item time="1500" text="ABOUT" />
-                  </Nav.Link>
-                  <Nav.Link href="/#portfolio">
-                    <Item text="PORTFOLIO" />
-                  </Nav.Link>
-                  <Nav.Link href="/#resume">
-                    {/*  linkIt="#resume" */}
-                    <Item text="SKILLS" />
-                  </Nav.Link>
-                  <Nav.Link href="/#contact">
-                    <Item text="CONTACT" />
-                  </Nav.Link>
-                </>
-               }
-            </Nav>
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: "100px", margin: "0px 100px 0 200px" }}
+            navbarScroll
+            id="navbarItemsContainer"
+          >
+            { }
+            <Nav.Link href="/#">
+              <Item time="1500" text="HOME" />
+            </Nav.Link>
+            {/* If it's a project page, the NavBar will render the links of the first scope */}
+            {/* If not, it will render the links of the second scope */}
+            {isProjectPage ?
+              <>
+                <Nav.Link href="/FirstProject">
+                  <Item text="1st Project" />
+                </Nav.Link>
+                <Nav.Link href="/SecProject">
+                  <Item time="1500" text="2nd Project" />
+                </Nav.Link>
+                <Nav.Link href="/ThirdProject">
+                  <Item text="3rd Project" />
+                </Nav.Link>
+                <Nav.Link href="/FourthProject">
+                  {/*  linkIt="#resume" */}
+                  <Item text="4th Project" />
+                </Nav.Link>
+              </>
+              :
+              <>
+                <Nav.Link href="/#AboutMe">
+                  <Item time="1500" text="ABOUT" />
+                </Nav.Link>
+                <Nav.Link href="/#portfolio">
+                  <Item text="PORTFOLIO" />
+                </Nav.Link>
+                <Nav.Link href="/#resume">
+                  {/*  linkIt="#resume" */}
+                  <Item text="SKILLS" />
+                </Nav.Link>
+                <Nav.Link href="/#contact">
+                  <Item text="CONTACT" />
+                </Nav.Link>
+              </>
+            }
+          </Nav>
 
-            <div className="hireMe-part">
-              <a href="img\Yasser-allam-resume.pdf" target="_blank" download>
-                <button  className="button btn" type="submit">
-                  Resume
-                </button>
-                
-              </a>
+          <div className="hireMe-part">
+            <a href="img\Yasser-allam-resume.pdf" target="_blank" download>
+              <button className="button btn" type="submit">
+                Resume
+              </button>
 
-            
+            </a>
 
-            
-            </div>
-          </Navbar.Collapse>
+
+
+
+          </div>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
 
