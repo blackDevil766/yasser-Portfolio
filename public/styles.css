@@ -301,9 +301,7 @@ p {
     z-index: 100 !important;
 }
 
-.LogoIcon {
-    height: 80px;
-}
+
 
 
 .btn {
@@ -452,14 +450,13 @@ p {
 }
 
 .text-gold {
-    color: #be9852;
-    font-weight: bold;
+  color: #be9852;
+  font-weight: bold;
 }
 
 .big-text {
     font-size: 40px;
 }
-
 @media (width < 768px) {
     .big-text {
         font-size: 30px;
@@ -595,7 +592,7 @@ p {
 }
 
 .welcomeToMyWorldSection-continer {
-    width: 100%;
+    width:100%;
     display: flex;
     margin: 0px auto;
     /* justify-content: center; */
@@ -866,7 +863,7 @@ p {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     height: 1000px;
 }
 
@@ -876,44 +873,12 @@ p {
     margin: 0px auto;
 }
 
-/*------------------------ New About Section ---------------- */
-
 .about-continer {
     background-color: transpar/ent;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.details-about-us {
-    font-size: 20px;
-}
-
-.AboutSection {
-    display: flex;
-    /* justify-content: space-around; */
-    align-items: center;
-    gap: 40px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.AboutSection img {
-    /* width: 27vw; */
-}
-
-.HowItWorkMainWord {
-    font-size: 44px;
-    padding-bottom: 50px;
-    /* text-align: center; */
-}
-
-.About-Image {
-    width: 1000px;
-    height: 600px;
-}
-
-/*----- END ------------------- New About Section ---------------- */
 
 hr {
     width: 95% !important;
@@ -2609,7 +2574,6 @@ hr {
     text-transform: uppercase;
     color: #be9852;
 }
-
 @media (width < 768px) {
     .project-details-header {
         margin-bottom: 30px;
@@ -2617,7 +2581,7 @@ hr {
     }
 }
 
-.horizontal-Line {
+.horizontal-Line{
     width: 50% !important;
 }
 
@@ -2630,31 +2594,29 @@ hr {
     gap: 40px;
 
 }
-
 .grid-images {
-    display: grid;
-    /* 2 columns on desktop */
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    max-width: 80%;
-    margin: 30px auto;
-    padding: 10px;
+  display: grid;
+/* 2 columns on desktop */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 80%;
+  margin: 30px auto;
+  padding: 10px;
 }
 
 @media (max-width: 600px) {
-    .grid-images {
-        /* 1 column on mobile */
-        grid-template-columns: 1fr;
-        margin: 20px auto;
-    }
+  .grid-images {
+    /* 1 column on mobile */
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+  }
 }
-
-.grid-images>img {
-    height: auto;
-    object-fit: contain;
-    border-radius: 20px;
-    box-shadow: 3px 0px 54px 1px #1c1e22, 1px -1px 8px #262a2e;
-    width: 100%;
+.grid-images > img {
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 3px 0px 54px 1px #1c1e22, 1px -1px 8px #262a2e;
+  width: 100%;
 }
 
 @media (width < 768px) {
@@ -2663,7 +2625,6 @@ hr {
     }
 
 }
-
 @media (width > 768px) {
     .game-system-description {
         font-size: 20px;
@@ -2693,8 +2654,8 @@ hr {
 }
 
 .explanation-about-game {
-    display: flex;
-    justify-content: space-between;
+    display: flex ;
+    justify-content:space-between;
     font-size: large;
     font-size: 14px;
     width: 65%;
@@ -2704,18 +2665,18 @@ hr {
     flex-direction: column;
 }
 
-.toolsTitle {
+.toolsTitle{
     color: rgb(190, 152, 82);
     font-size: 20px;
 }
 
-.tools-details {
+.tools-details{
     color: #b9b9b9;
     font-size: 17px;
 }
 
-.mytools-details {
-    color: #b9b9b9;
+.mytools-details{
+     color: #b9b9b9;
     font-size: 13px;
 }
 
@@ -2727,7 +2688,6 @@ hr {
     justify-content: center;
     display: flex;
 }
-
 @media (width < 768px) {
     .downloadBtn {
         margin-top: 70px;
@@ -3455,7 +3415,7 @@ left: 40px; */
         width: 93%;
     }
 
-    .achivement-details p {
+    .achivement-details p{
         padding: 0;
         text-align: center;
     }
@@ -3691,24 +3651,23 @@ left: 40px; */
         width: 100%;
     }
 
-    .achivement-details img {
+    .achivement-details img{
         width: 100%;
         height: auto;
     }
 
-    .vid {
+    .vid{
         width: 90%;
     }
 
-    .Portfo-img {
+    .Portfo-img{
         cursor: none;
     }
 
-    li .input {
+    li .input{
         cursor: none;
     }
-
-    .btn {
+    .btn{
         cursor: none;
     }
 }

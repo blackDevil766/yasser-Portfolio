@@ -14,25 +14,25 @@ function WelcomeToMyWorld() {
       <div className="welcomeToMyWorldSection-continer">
         <div id="carouselExampleControls" className="slide carousel" data-bs-ride="carousel">
           <div className="carousel-item active">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Revenge-3.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Revenge-1.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Island-of-1.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Island-of-3.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\Island-of-2.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\pac-runner1.jpg" alt="..." />
           </div>
           <div className="carousel-item">
-            <img className="welcome-carousel-img" src="https://axonprofiles.com/wp-content/uploads/2024/07/close-up-metallic-plates-1-scaled.jpg" alt="..." />
+            <img className="welcome-carousel-img" src="\img\yasser-portfolio-images\Page-head-images\pac-runner2.jpg" alt="..." />
           </div>
         </div>
 
@@ -42,19 +42,19 @@ function WelcomeToMyWorld() {
             <h1 className="typoChanger">
               <span className="subName">
                 <span className="auto-type">
-                  <ReactTyped
-                    strings={textLines}
-                    typeSpeed={60}
-                    backSpeed={60}
-                    startDelay={500}
-                    backDelay={500}
-                    loop={true}
+                  <ReactTyped 
+                    strings={textLines} 
+                    typeSpeed={60} 
+                    backSpeed={60} 
+                    startDelay={500} 
+                    backDelay={500} 
+                    loop={true} 
                   />
                 </span>
               </span>
             </h1>
             <p className="description">
-
+              
             </p>
           </div>
         </div>
@@ -64,3 +64,4 @@ function WelcomeToMyWorld() {
 }
 
 export default WelcomeToMyWorld;
+  
